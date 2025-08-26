@@ -1,0 +1,35 @@
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $sections := $headless.Resources.ByType "page" }}
+{{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+
+<footer class="site-footer">
+  <div class="inner">
+    {{ if ne .Site.Params.footer.showFooterLinks false }}
+    <section class="links">
+      <ol>
+      {{ range where $sections ".Params.footer_menu" "eq" true }}
+        <li>
+          {{ if .Params.external }}
+          <a href="{{ .Params.external }}" target="_blank">{{ .Params.footer_menu_title }}</a>
+          {{ else }}
+          {{ .Params.footer_menu_title }}
+          {{ end }}
+        </li>
+      {{ end }}
+      </ol>
+    </section>
+    {{ end }}
+
+    {{ if ne .Site.Params.footer.showContactIcons false }}
+      <section class="icons">
+        {{ range .Site.Params.contacts }}
+          <a href="{{ .url | safeURL }}" aria-label='{{ i18n "{{ .label }}" }}'><i class="{{ .icon }}"></i></a>
+        {{ end }}
+      </section>
+    {{ end }}
+
+    {{ with .Site.Params.copyright }}
+      <section class="copyright">{{ replace . "{year}" now.Year | safeHTML}}</section>
+    {{ end }}
+  </div>
+</footer>

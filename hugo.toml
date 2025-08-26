@@ -1,0 +1,83 @@
+baseURL = "https://yoli.care"
+
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+
+# The name of this wonderful theme ;-).
+theme = "hugo-scroll"
+
+# The browser tab name
+title = "Yoli - Autism care that cares"
+
+# enable emoji processing in Markdown (valid only for pure markdown content)
+enableEmoji = true
+
+# Override default publishing (/public) path
+publishDir = "docs"
+
+# Theme-specific variables `.Site.Params.myParamName`
+[params]
+
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "images/favicon-32x32.png"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
+    # NOT the actual header background image, go to _index.md instead
+    images = ["images/yoli.png"]
+
+    # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
+    # Ideal images are homogenous around the centre and contrasting to the text.
+    # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
+    # see _index.md header_headline and header_subheadline
+    title_guard = false
+
+    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+    # opengraph structured data template.
+    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+    title = "Yoli - Autism care that cares"
+
+    # The "description" of your website. This is used in the meta data of your generated html.
+    description = "Autism care for families in the San Francisco Bay Area: San Francisco, Oakland, Berkeley, Albany, Kensington, El Cerrito, Richmond"
+
+    # Show a menu of languages available
+    language_menu = false
+
+    # Show also a language menu item for the current language, if false only
+    # show the remaining languages
+    show_current_lang = false
+
+    # A "copyright"-line to be added at the bottom of the page.
+    # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+    copyright = "&copy; {year} - Yoli"
+
+    # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
+    invertSectionColors = false
+    
+    # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
+    image_options = "webp q90 lanczos photo"
+    
+    [params.footer]
+    # Show contact icons for email/phone (if specified) in the footer of the page
+    showContactIcons = true
+
+    # Show links indicated with footer_menu and footer_menu_title in the footer of the page
+    showFooterLinks = true
+
+    [params.meta]
+        keywords = "behavior, counseling, autism, asd, adhd, therapy"
+
+    # [[params.contacts]]
+    #     label = "phone"
+    #     value = "(510) 679-2782 (call or text)"
+    #     url = "tel:+1 510 679-2782"
+    #     icon = "fa fa-phone"
+
+    # [[params.contacts]]
+    #     label = "email"
+    #     value = "laura.kliger@gmail.com"
+    #     url = "mailto:laura.kliger@gmail.com"
+    #     icon = "fa fa-envelope"

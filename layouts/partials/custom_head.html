@@ -1,0 +1,35 @@
+<style>
+:root {
+    /* see variables.scss for more variables*/
+
+    --cover-text-color: #335b25!important;
+    --highlight: #fbffe8!important;
+    --section-light-text-color: var(--cover-text-color)!important;
+    --section-light-bg-color: var(--highlight)!important;
+    --section-dark-bg-color: var(--cover-text-color)!important;
+    --sticky-menu-text-color: var(--cover-text-color)!important;
+    --footer-color-background: var(--highlight)!important;
+    --footer-color: var(--cover-text-color)!important;
+
+     /* define list element for unnumbered lists, leave empty for default list element */
+     /* fa-asterisk is the default icon if this variable definition is missing completely */
+     --ul-li-icon: fa-dashcube;     /* this sets fa-dashcube as list icon */
+/*     --ul-li-icon: ;                /* this sets the default html list icon */*/
+}
+details {
+    margin-bottom: 1.2rem;
+/*    font-size: 0.8em;*/
+}
+details > summary {
+/*    margin-bottom: -1.5rem;*/
+     font-size: 1.1em;
+}
+#blog-logo {
+    max-height: 300px;
+}
+</style>
+
+<link rel="apple-touch-icon" sizes="180x180" href='{{ "images/apple-touch-icon.png" | absURL }}?v=1'>
+<link rel="icon" type="image/png" sizes="32x32" href='{{ "images/favicon-32x32.png" | absURL }}?v=1'>
+<link rel="icon" type="image/png" sizes="16x16" href='{{ "images/favicon-16x16.png" | absURL }}?v=1'>
+<link rel="manifest" href='{{ "images/site.webmanifest" | absURL }}?v=1' >
