@@ -3,5 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yoli.care/</loc>
+  </url><url>
+    <loc>https://yoli.care/donate/</loc>
   </url>
 </urlset>

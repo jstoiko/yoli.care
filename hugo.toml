@@ -55,7 +55,7 @@ publishDir = "docs"
     copyright = "&copy; {year} - Yoli"
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = false
+    invertSectionColors = true
     
     # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
     image_options = "webp q90 lanczos photo"
@@ -68,7 +68,7 @@ publishDir = "docs"
     showFooterLinks = true
 
     [params.meta]
-        keywords = "behavior, counseling, autism, asd, adhd, therapy"
+        keywords = "aba, behavior, counseling, autism, asd, therapy"
 
     # [[params.contacts]]
     #     label = "phone"
