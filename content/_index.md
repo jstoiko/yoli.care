@@ -10,7 +10,7 @@ header_logo: "images/yoli.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "Autism Care that cares"
-header_subheadline: "Opening soon <br/><small>East Bay, San Francisco Bay Area</small>"
+header_subheadline: "<i>Now accepting new clients</i><br/><small>Albany, East Bay, San Francisco Bay Area</small>"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
