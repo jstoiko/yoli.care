@@ -1,0 +1,10 @@
+{{ range .Site.Params.contacts }}
+    <p>
+        <i class="{{ .icon }}"></i>&nbsp;
+        {{ if .url }}
+            <a href="{{ .url | safeURL }}">{{ .value | safeHTML }}</a>
+        {{ else }}
+            {{ .value | safeHTML }}
+        {{ end }}
+    </p>
+{{ end }}
