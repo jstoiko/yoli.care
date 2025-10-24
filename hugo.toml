@@ -55,7 +55,7 @@ publishDir = "docs"
     copyright = "&copy; {year} - Yoli"
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = true
+    invertSectionColors = false
     
     # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
     image_options = "webp q90 lanczos photo"
@@ -70,14 +70,26 @@ publishDir = "docs"
     [params.meta]
         keywords = "aba, behavior, counseling, autism, asd, therapy"
 
-    # [[params.contacts]]
-    #     label = "phone"
-    #     value = "(510) 679-2782 (call or text)"
-    #     url = "tel:+1 510 679-2782"
-    #     icon = "fa fa-phone"
+    [[params.contacts]]
+        label = "phone"
+        value = "(510) 679-2782 (call or text)"
+        url = "tel:+1 510 679-2782"
+        icon = "fa fa-phone"
 
-    # [[params.contacts]]
-    #     label = "email"
-    #     value = "laura.kliger@gmail.com"
-    #     url = "mailto:laura.kliger@gmail.com"
-    #     icon = "fa fa-envelope"
+    [[params.contacts]]
+        label = "fax"
+        value = "(510) 905-0712"
+        icon = "fa fa-fax"
+
+    [[params.contacts]]
+        label = "email"
+        value = "email (form)"
+        url = "https://forms.gle/EFY2tqJVWx2terSu5"
+        icon = "fa fa-envelope"
+
+    [[params.contacts]]
+        label = "address"
+        value = "1057 Solano Ave, Ste 104 <br/> Albany, CA 94706 United States"
+        # url = "http://maps.google.com/?q=1057 Solano Ave, Albany, CA 94706 United States"
+        icon = "fa fa-location-dot"
+
