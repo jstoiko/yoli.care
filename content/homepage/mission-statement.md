@@ -10,6 +10,6 @@ The **commercialization of autism care** has exacerbated these challenges. Many 
 
 Our mission is to **make high-quality, evidence-based, child-centered autism care accessible** to all families by developing a sustainable, community-centered model that **prioritizes clinical excellence**. We achieve this by **hiring and retaining passionate behavior specialists** at competitive rates while supplementing insurance reimbursements with additional funding sources only available to nonprofit organizations. By removing financial barriers and focusing on each child’s unique strengths, we aim to provide **equitable, consistent, and effective care for all children** with autism, regardless of socioeconomic status.
 
-![Kids playing at Yoli](images/kid-slide.jpg)
+![Kids playing at Yoli](images/kids-playing-with-wood-cubes.jpg)
 
 [Pledge your support{{< icon name="hand-holding-medical" >}}]({{% relref "/donate" %}})
