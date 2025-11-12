@@ -1,14 +1,10 @@
 baseURL = "https://yoli.care"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
-
+disableKinds = ["section", "taxonomy", "term", "RSS"]
+enableRobotsTXT = true
 defaultContentLanguage = "en"
-
-# The name of this wonderful theme ;-).
 theme = "hugo-scroll"
-
-# The browser tab name
 title = "Yoli - Autism care that cares"
 
 # enable emoji processing in Markdown (valid only for pure markdown content)
