@@ -75,7 +75,7 @@
 
       
       
-     --ul-li-icon: fa-dashcube;      
+      */
  */
 }
 details {
@@ -89,6 +89,44 @@ details > summary {
 #blog-logo {
     max-height: 300px;
 }
+ 
+
+ 
+.top-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding: 1rem;
+    background-color: var(--section-light-bg-color);
+    border-radius: 0 0 0 20px;
+    font-family: oswald, sans-serif;
+    font-weight: lighter;
+}
+.top-menu .top-menu-items {
+    margin: 0;
+    padding: 0;
+    display: flex;  
+    gap: 1rem;    
+}
+.top-menu .top-menu-items .top-menu-item {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.top-menu .top-menu-items .top-menu-item a {
+    text-decoration: none;
+}
+.top-menu .top-menu-items .top-menu-item a:hover {
+    text-decoration: underline;
+}
+
+ 
+@media (max-width: 768px) {
+    .top-menu {
+        display: none;
+    }
+}
 </style>
 
 <link rel="apple-touch-icon" sizes="180x180" href='https://yoli.care/images/apple-touch-icon.png?v=1'>
@@ -96,7 +134,16 @@ details > summary {
 <link rel="icon" type="image/png" sizes="16x16" href='https://yoli.care/images/favicon-16x16.png?v=1'>
 <link rel="manifest" href='https://yoli.care/images/site.webmanifest?v=1' >
 </head>
-  <body>
+  <body><nav class="top-menu">
+  <div class="top-menu-items">
+    <div class="top-menu-item">
+      <b>New Client?</b> <a href="https://forms.gle/EFY2tqJVWx2terSu5">Contact us here</a>
+    </div>
+    <div class="top-menu-item">
+      <a href="/donate">Pledge your support <i class="fa-solid fa-hand-holding-medical"></i></a>
+    </div>
+  </div>
+</nav>
 
 
 
@@ -183,14 +230,8 @@ details > summary {
               
 
               
-                 <a class='btn site-menu' href='/donate/'>Pledge Your Support</a>
-              
-            
-              
-              
-
-              
-                 <a class='btn site-menu' href='https://forms.gle/EFY2tqJVWx2terSu5'>Contact us&nbsp;<i class="fa fa-external-link"></i></a>
+                
+                 <a class='btn site-menu' data-title-anchor='getting-in-touch' href='#getting-in-touch'>Getting in touch</a>
               
             
 

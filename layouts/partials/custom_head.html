@@ -18,7 +18,7 @@
 
      /* define list element for unnumbered lists, leave empty for default list element */
      /* fa-asterisk is the default icon if this variable definition is missing completely */
-     --ul-li-icon: fa-dashcube;     /* this sets fa-dashcube as list icon */
+     /*--ul-li-icon: fa-dashcube;     /* this sets fa-dashcube as list icon */*/
 /*     --ul-li-icon: ;                /* this sets the default html list icon */*/
 }
 details {
@@ -31,6 +31,47 @@ details > summary {
 }
 #blog-logo {
     max-height: 300px;
+}
+/*
+ * Custom Top Menu Styles
+ * (Using <div> and <a> to avoid <ul> conflicts)
+ */
+
+/* The main <nav> container */
+.top-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding: 1rem;
+    background-color: var(--section-light-bg-color);
+    border-radius: 0 0 0 20px;
+    font-family: oswald, sans-serif;
+    font-weight: lighter;
+}
+.top-menu .top-menu-items {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes links horizontal */
+    gap: 1rem;   /* Adds space between links */
+}
+.top-menu .top-menu-items .top-menu-item {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.top-menu .top-menu-items .top-menu-item a {
+    text-decoration: none;
+}
+.top-menu .top-menu-items .top-menu-item a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile: hide the menu */
+@media (max-width: 768px) {
+    .top-menu {
+        display: none;
+    }
 }
 </style>
 

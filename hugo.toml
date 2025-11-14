@@ -13,6 +13,18 @@ enableEmoji = true
 # Override default publishing (/public) path
 publishDir = "docs"
 
+[[menu.main]]
+    pre = "New Client?"
+    name = "Contact us here"
+    url = "https://forms.gle/EFY2tqJVWx2terSu5"
+    weight = 10
+
+[[menu.main]]
+    name = "Pledge your support"
+    url = "/donate"
+    post = '<i class="fa-solid fa-hand-holding-medical"></i>'
+    weight = 20
+
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
 

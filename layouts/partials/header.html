@@ -1,0 +1,9 @@
+<nav class="top-menu">
+  <div class="top-menu-items">
+    {{- range .Site.Menus.main }}
+    <div class="top-menu-item">
+      {{ with .Pre }}<b>{{ . }}</b> {{ end }}<a href="{{ .URL }}">{{ .Name }}{{ with .Post }} {{ . }}{{ end }}</a>
+    </div>
+    {{- end }}
+  </div>
+</nav>
