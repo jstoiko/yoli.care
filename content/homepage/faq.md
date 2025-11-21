@@ -30,7 +30,7 @@ Regular monthly clinical meetings will take place with the Clinical Supervisor /
 {{< /details >}}
 
 {{< details "What is Self-Directed Learning (SDL) / Self-Directed Education (SDE)?" >}}
-It simply means focusing on your child’s interests and on the way that they learn best, trusting them to take the lead in deciding what, how, and when they learn. It involves creating an environment that works best for your child, one in which they are motivated to learn. This way of learning is based on the principles of intrinsic motivation for which research has shown not only enhanced learning outcomes but also greater long-term life satisfaction and personal well-being.
+It simply means focusing on your child’s **interests** and on the way that they learn best, **trusting them** to take the lead in deciding what, how, and when they learn. It involves creating an environment that works best for your child, one in which they are motivated to learn. This way of learning is based on the principles of **intrinsic motivation** for which research has shown not only **enhanced learning outcomes** but also **greater long-term life satisfaction** and personal well-being.
 {{< /details >}}
 
 {{< details "What is Applied Behavior Analysis or ABA?" >}}
@@ -42,7 +42,7 @@ It simply means focusing on your child’s interests and on the way that they le
 {{< /details >}}
 
 {{< details "Does behavior change mean changing my child?" >}}
-Absolutely not. On the contrary! The approach at Yoli focuses on acceptance of every child as they are. This concept is key to moving forward and making changes. Underlying acceptance is the cessation of comparison to other children and seeing and accepting them for where they are in their developmental journey. Behavior is one of the ways in which children communicate. Often, they are communicating that they lack the skills necessary to navigate a situation. Together we will find functional replacement behaviors and prioritize skill building. 
+Absolutely not. On the contrary! The approach at Yoli focuses on **acceptance of every child as they are**. This concept is key to moving forward and making changes. Underlying acceptance is the **cessation of comparison to other children** and **seeing and accepting them for where they are in their developmental journey**. Behavior is one of the ways in which children communicate. Often, they are communicating that they lack the skills necessary to navigate a situation. Together we will find functional replacement behaviors and prioritize skill building. 
 {{< /details >}}
 
 {{< details "Can you provide examples of behaviors?" >}}
@@ -63,7 +63,6 @@ Absolutely not. On the contrary! The approach at Yoli focuses on acceptance of e
 {{< /details >}}
 
 {{< details "How much does it cost?" >}}
-
 **With Insurance**: Your cost is determined by your specific insurance plan. We recommend contacting your insurance to ask about your benefits for therapy, such as co-pays, deductibles, or reimbursement rates. We are happy to help you navigate this process.
 
 **Without Insurance / Sliding Scale**: We are deeply committed to working with socioeconomically diverse families and believe cost should not be a barrier to care. If you do not have insurance, or if your plan's costs are too high, Yoli offers a sliding fee scale based on family needs. We strive to not turn anyone away due to financial hardship.
