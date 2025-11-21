@@ -60,7 +60,7 @@
      
 
     --cover-text-color: #335b25!important;
-    --highlight: var(--cover-text-color)!important;
+    --highlight: #4b773c!important;
     --highlight-contrast: white!important;
      
     --highlight-inverse: #fbffe8!important;
@@ -68,7 +68,7 @@
 
     --section-light-text-color: var(--cover-text-color)!important;
     --section-light-bg-color: var(--highlight-inverse)!important;
-    --section-dark-bg-color: var(--cover-text-color)!important;
+    --section-dark-bg-color: var(--highlight)!important;
     --sticky-menu-text-color: var(--cover-text-color)!important;
     --footer-color-background: var(--highlight-inverse)!important;
     --footer-color: var(--cover-text-color)!important;
@@ -80,10 +80,8 @@
 }
 details {
     margin-bottom: 1.2rem;
- 
 }
 details > summary {
- 
      font-size: 1.1em;
 }
 #blog-logo {
@@ -97,8 +95,9 @@ details > summary {
     top: 0;
     right: 0;
     z-index: 999;
-    padding: 1rem;
-    background-color: var(--section-light-bg-color);
+    padding: 0 1rem;
+    color: var(--highlight-contrast);
+    background-color: var(--highlight);
     border-radius: 0 0 0 20px;
     font-family: oswald, sans-serif;
     font-weight: lighter;
@@ -107,7 +106,7 @@ details > summary {
     margin: 0;
     padding: 0;
     display: flex;  
-    gap: 1rem;    
+    gap: 1.2rem;    
 }
 .top-menu .top-menu-items .top-menu-item {
     font-size: 1.1rem;
@@ -117,10 +116,6 @@ details > summary {
 .top-menu .top-menu-items .top-menu-item a {
     text-decoration: none;
 }
-.top-menu .top-menu-items .top-menu-item a:hover {
-    text-decoration: underline;
-}
-
  
 @media (max-width: 768px) {
     .top-menu {
@@ -129,10 +124,10 @@ details > summary {
 }
 </style>
 
-<link rel="apple-touch-icon" sizes="180x180" href='https://yoli.care/images/apple-touch-icon.png?v=1'>
-<link rel="icon" type="image/png" sizes="32x32" href='https://yoli.care/images/favicon-32x32.png?v=1'>
-<link rel="icon" type="image/png" sizes="16x16" href='https://yoli.care/images/favicon-16x16.png?v=1'>
-<link rel="manifest" href='https://yoli.care/images/site.webmanifest?v=1' >
+<link rel="apple-touch-icon" sizes="180x180" href='https://yoli.care/images/apple-touch-icon.png?v=2'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://yoli.care/images/favicon-32x32.png?v=2'>
+<link rel="icon" type="image/png" sizes="16x16" href='https://yoli.care/images/favicon-16x16.png?v=2'>
+<link rel="manifest" href='https://yoli.care/images/site.webmanifest?v=2' >
 </head>
   <body><nav class="top-menu">
   <div class="top-menu-items">
@@ -312,6 +307,11 @@ details > summary {
 </figure>
  Hello. I am a <strong>Board Certified Behavior Analyst</strong> (<strong>BCBA</strong>) with an insatiable passion for child development and self-directed learning. I have been working in many settings (homes, schools, clinics and in the community) with children of all ages. I have been supporting parents, teachers, and therapists to better understand and manage behaviors. My passion is to help parents reclaim their role; to understand their child’s behavior and to make changes that allow the family to live in a more cohesive and symbiotic way.</p>
 <p>In 2009, I started working with preschool aged children and found myself drawn to those with Autism and other neurodivergent traits. I pursued this interest straight into a career in <strong>Applied Behavior Analysis</strong> (<strong>ABA</strong>). While I love working directly with children and after becoming a parent myself, I became steadfast in my conviction that the most meaningful and long lasting behavior change comes from the safety and connectivity of child-parent relationships. This shifted my focus to wanting to help parents learn to enact change in their own children. As my children grew, I also started questioning contemporary education as a whole, and have integrated the abundance of research on the benefits of self-directed learning and intrinsic motivation to my practice of behavior change. While at first this research seemed to contradict some of the work I had been doing, I quickly realized that it was the field of ABA, not the science, that had been shaped to accommodate our education system. I want to help you integrate the benefits of self-directed learning using the science of Applied Behavior Analysis to help your child thrive.</p>
+<h6 id="our-clinical-team">Our Clinical Team</h6>
+<p>Yoli is defined by the quality of our clinical team. We believe that to provide the best care, we must create the best work environment. We achieve clinical excellence by hiring and retaining top-tier behavior specialists at competitive rates. We specifically seek professionals who are committed to a child-centered approach to ABA and who focus on meaningful, long-term outcomes. Our non-profit model allows us to foster a high-quality, supportive work environment, investing significantly in continuous professional development to ensure an exceptional caliber of staff. By maintaining a realistic and manageable clinician-to-client ratio, we prevent burnout and ensure our staff can deliver the high-quality, personalized care every child deserves. This focus on staff support and clinical quality is how we combat the high turnover seen in the commercialized autism care sector.</p>
+<hr>
+<h5 id="yolis-board-of-directors">Yoli&rsquo;s Board of Directors</h5>
+<p>Yoli is guided by a Board of Directors committed to our mission. Our board is intentionally composed of both seasoned clinicians and families who have previously received ABA services. This diverse perspective ensures that all decisions balance clinical excellence with the practical, lived experience of families. They provide comprehensive insight into how we can make Yoli the best, most impactful Autism care possible for every family we serve.</p>
 
                 </section>
             </article>
@@ -347,7 +347,7 @@ details > summary {
 </details>
 <details>
   <summary>What is Self-Directed Learning (SDL) / Self-Directed Education (SDE)?</summary>
-  It simply means focusing on your child’s interests and on the way that they learn best, trusting them to take the lead in deciding what, how, and when they learn. It involves creating an environment that works best for your child, one in which they are motivated to learn. This way of learning is based on the principles of intrinsic motivation for which research has shown not only enhanced learning outcomes but also greater long-term life satisfaction and personal well-being.
+  It simply means focusing on your child’s <strong>interests</strong> and on the way that they learn best, <strong>trusting them</strong> to take the lead in deciding what, how, and when they learn. It involves creating an environment that works best for your child, one in which they are motivated to learn. This way of learning is based on the principles of <strong>intrinsic motivation</strong> for which research has shown not only <strong>enhanced learning outcomes</strong> but also <strong>greater long-term life satisfaction</strong> and personal well-being.
 </details>
 <details>
   <summary>What is Applied Behavior Analysis or ABA?</summary>
@@ -359,7 +359,7 @@ details > summary {
 </details>
 <details>
   <summary>Does behavior change mean changing my child?</summary>
-  Absolutely not. On the contrary! The approach at Yoli focuses on acceptance of every child as they are. This concept is key to moving forward and making changes. Underlying acceptance is the cessation of comparison to other children and seeing and accepting them for where they are in their developmental journey. Behavior is one of the ways in which children communicate. Often, they are communicating that they lack the skills necessary to navigate a situation. Together we will find functional replacement behaviors and prioritize skill building.
+  Absolutely not. On the contrary! The approach at Yoli focuses on <strong>acceptance of every child as they are</strong>. This concept is key to moving forward and making changes. Underlying acceptance is the <strong>cessation of comparison to other children</strong> and <strong>seeing and accepting them for where they are in their developmental journey</strong>. Behavior is one of the ways in which children communicate. Often, they are communicating that they lack the skills necessary to navigate a situation. Together we will find functional replacement behaviors and prioritize skill building.
 </details>
 <details>
   <summary>Can you provide examples of behaviors?</summary>
