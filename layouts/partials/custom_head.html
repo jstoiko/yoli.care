@@ -3,7 +3,7 @@
     /* see variables.scss for more variables*/
 
     --cover-text-color: #335b25!important;
-    --highlight: var(--cover-text-color)!important;
+    --highlight: #4b773c!important;
     --highlight-contrast: white!important;
     /*inverse colors used for :hover */
     --highlight-inverse: #fbffe8!important;
@@ -11,7 +11,7 @@
 
     --section-light-text-color: var(--cover-text-color)!important;
     --section-light-bg-color: var(--highlight-inverse)!important;
-    --section-dark-bg-color: var(--cover-text-color)!important;
+    --section-dark-bg-color: var(--highlight)!important;
     --sticky-menu-text-color: var(--cover-text-color)!important;
     --footer-color-background: var(--highlight-inverse)!important;
     --footer-color: var(--cover-text-color)!important;
@@ -23,10 +23,8 @@
 }
 details {
     margin-bottom: 1.2rem;
-/*    font-size: 0.8em;*/
 }
 details > summary {
-/*    margin-bottom: -1.5rem;*/
      font-size: 1.1em;
 }
 #blog-logo {
@@ -43,8 +41,9 @@ details > summary {
     top: 0;
     right: 0;
     z-index: 999;
-    padding: 1rem;
-    background-color: var(--section-light-bg-color);
+    padding: 0 1rem;
+    color: var(--highlight-contrast);
+    background-color: var(--highlight);
     border-radius: 0 0 0 20px;
     font-family: oswald, sans-serif;
     font-weight: lighter;
@@ -53,7 +52,7 @@ details > summary {
     margin: 0;
     padding: 0;
     display: flex; /* Makes links horizontal */
-    gap: 1rem;   /* Adds space between links */
+    gap: 1.2rem;   /* Adds space between links */
 }
 .top-menu .top-menu-items .top-menu-item {
     font-size: 1.1rem;
@@ -63,10 +62,6 @@ details > summary {
 .top-menu .top-menu-items .top-menu-item a {
     text-decoration: none;
 }
-.top-menu .top-menu-items .top-menu-item a:hover {
-    text-decoration: underline;
-}
-
 /* Mobile: hide the menu */
 @media (max-width: 768px) {
     .top-menu {
