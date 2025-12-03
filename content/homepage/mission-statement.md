@@ -12,4 +12,4 @@ Our mission is to **make high-quality, evidence-based, child-centered autism car
 
 ![Kids playing at Yoli](images/kids-playing-with-wood-cubes.jpg)
 
-[Pledge your support{{< icon name="hand-holding-medical" >}}]({{% relref "/donate" %}})
+[Support Yoli's Mission]({{% relref "/donate" %}})

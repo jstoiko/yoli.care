@@ -1,6 +1,7 @@
 ---
-title: "Pledge Your Support"
+title: "Support Yoli's Mission"
 ---
-Thank you for your interest in supporting our mission! We have filed our application for 501(c)(3) tax-exempt status with the IRS and are awaiting a determination. While we expect our status to be approved and made retroactive to our date of formation, any donations made at this time are not yet tax-deductible. By filling out the contact form below, you'll help us keep you updated on our progress and let us know what you're interested in donating once we receive our official status. We are grateful for your support!
+
+Thank you for your interest in supporting our mission! Yoli is a 501(c)(3) nonprofit organization, and donations are fully tax-deductible to the extent allowed by law. By filling out the contact form below, you'll help us get in touch with you with more information on how to make a monetary donation and let us know how you're interested in supporting our mission. We are also interested in accepting in-kind donations of toys and other educational materials that can be used for therapy sessions. We are deeply grateful for your support!
 
 [I'm Interested in Donating](https://forms.gle/EFY2tqJVWx2terSu5)

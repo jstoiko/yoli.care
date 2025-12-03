@@ -1,6 +1,8 @@
 ---
 title: "Getting in touch"
-weight: 4
+header_menu_title: "Contact Us"
+navigation_menu_title: "Contact Us"
+weight: 5
 header_menu: true
 ---
 

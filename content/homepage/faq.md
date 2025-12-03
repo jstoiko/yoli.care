@@ -2,7 +2,7 @@
 title: "Frequently Asked Questions"
 header_menu_title: "FAQ"
 navigation_menu_title: "FAQ"
-weight: 3
+weight: 4
 header_menu: true
 ---
 
