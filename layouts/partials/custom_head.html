@@ -1,3 +1,7 @@
+{{ if .Params.is_landing }}
+<meta name="robots" content="noindex">
+{{ end }}
+
 <script defer src="https://scripts.goodstack.io/donation-widget-v1.js"></script>
 
 <style>
@@ -71,6 +75,32 @@ details > summary {
         display: none;
     }
 }
+{{ if .Params.is_landing }}
+    /* Special overides for langing pages */
+    .top-menu {
+        display: none;
+    }
+    .post {
+        max-width: 1024px;
+        padding-top: 1rem;
+    }
+    .page-template .post-header  {
+        display: block; 
+        width: 100px;
+        height: 100px;
+        background-image: url("/images/yoli.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-indent: -9999px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .page-template .post-title {
+        text-align: center;
+        hyphens: none;
+    }
+{{ end }}
 </style>
 
 <link rel="apple-touch-icon" sizes="180x180" href='{{ "images/apple-touch-icon.png" | absURL }}?v=2'>
