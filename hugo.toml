@@ -20,9 +20,9 @@ publishDir = "docs"
     weight = 1
 
 [[menu.main]]
-    name = "Donate"
+    name = "Support our mission"
     url = "/donate"
-    post = '<i class="fa-solid fa-hand-holding-medical"></i>'
+    post = '<i class="fa-solid fa-star"></i>'
     weight = 2
 
 # Theme-specific variables `.Site.Params.myParamName`
