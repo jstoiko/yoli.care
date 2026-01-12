@@ -12,4 +12,4 @@ Our mission is to **make high-quality, evidence-based, child-centered autism car
 
 ![Kids playing at Yoli](images/kids-playing-with-wood-cubes.jpg)
 
-Yoli is a 501(c)(3) nonprofit organization, and donations are fully tax-deductible. If Yoli's mission resonates with you, please consider [making a donation]({{% relref "/donate" %}}).
+Yoli is a 501(c)(3) nonprofit organization, and donations are fully tax-deductible. If Yoli's mission resonates with you, please consider [supporting our mission]({{% relref "/donate" %}}).
