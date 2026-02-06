@@ -49,7 +49,7 @@ publishDir = "docs"
     title = "Yoli - Autism care that cares"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Autism care for families in the San Francisco Bay Area: San Francisco, Oakland, Berkeley, Albany, Kensington, El Cerrito, Richmond"
+    description = "Yoli offers neurodiversity-affirming, play-based ABA therapy in Albany, CA. A nonprofit serving Berkeley, El Cerrito, and the East Bay with a child-led focus."
 
     # Show a menu of languages available
     language_menu = false
@@ -76,7 +76,7 @@ publishDir = "docs"
     showFooterLinks = true
 
     [params.meta]
-        keywords = "aba, behavior, counseling, autism, asd, therapy"
+        keywords = "Neurodiversity affirming ABA, Play-based therapy Albany CA, Autism support East Bay, Nonprofit ABA Berkeley, Yoli autism care"
 
     [[params.contacts]]
         label = "phone"
@@ -98,6 +98,5 @@ publishDir = "docs"
     [[params.contacts]]
         label = "address"
         value = "1057 Solano Ave, Ste 104 <br/> Albany, CA 94706 United States"
-        # url = "http://maps.google.com/?q=1057 Solano Ave, Albany, CA 94706 United States"
+        url = "http://maps.google.com/?q=Yoli 1057 Solano Ave, Albany, CA 94706 United States"
         icon = "fa fa-location-dot"
-
