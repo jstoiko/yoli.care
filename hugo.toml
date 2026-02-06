@@ -14,7 +14,7 @@ enableEmoji = true
 publishDir = "docs"
 
 [[menu.main]]
-    pre = "New Client?"
+    pre = "Now Accepting New Client:"
     name = "Start here"
     url = "https://forms.gle/EFY2tqJVWx2terSu5"
     weight = 1
