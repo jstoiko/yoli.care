@@ -9,7 +9,7 @@ display_title: "Therapy Should Build Connection, <br/> Not Battles."
 You’ve been told you have to be a "therapist first, parent second." We believe that’s wrong.
 
 ### Trust Your Gut
-{{< figure src="../images/Parent-First.jpeg" width="300px" alt="Child playing with a train with their mom in Albany, CA" class="right" >}} If therapy feels rigid, cold, or forceful, it’s not right for your child. You shouldn't have to dread driving to the clinic, and your child shouldn't have to cry through sessions to "learn."
+{{< figure src="../images/Parent-First.jpeg" width="300px" alt="Child playing with a train with their mom in Albany, CA" class="right" >}} If therapy feels rigid, cold, or forceful, then that’s counter to a child’s natural development and may even hinder growth. You shouldn't have to dread driving to the clinic, and your child shouldn't have to cry through sessions to "learn."
 
 At Yoli, we practice **Connection Before Correction**. We believe that children learn best when they feel safe, loved, and understood—not when they are actively fighting for autonomy.
 

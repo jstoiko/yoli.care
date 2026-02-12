@@ -13,7 +13,7 @@ Traditional ABA often focuses on making autistic kids appear "indistinguishable 
 
 ### How We Honor Neurodivergence
 - **Stimming is Okay**: We respect sensory regulation (stimming) and never target harmless behaviors for reduction.
-- **Consent Matters**: We teach children that their "no" matters. We do not use physical prompting or force compliance.
+- **Consent Matters**: We teach children that their "no" matters. We never use force to gain compliance. When we do use physical prompting, it is gentle and supportive—used only to help a child succeed without frustration, enhance enjoyment, and build internal motivation for activities they might otherwise struggle to complete.
 - **Trauma-Informed**: We recognize the history of harm in our field and actively work to repair it through transparent, ethical practices.
 
 ### Safe, Affirming Care in the East Bay

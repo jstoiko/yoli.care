@@ -9,7 +9,7 @@ is_landing: true
 Where therapy feels like play, and learning is a joy—not a chore.
 
 ### The "Yoli" Difference: Kids First
-{{< figure src="../images/therapy-session.jpg" width="300px" alt="Child engaged in play-based ABA therapy session in Albany" class="right" >}} Standard ABA can feel rigid. We take a different path. We practice a neurodiversity-affirming, play-based form of Applied Behavior Analysis that honors the dignity of every child. Our priority is ensuring that therapy never comes at the expense of being a kid.
+{{< figure src="../images/therapy-session.jpg" width="300px" alt="Child engaged in play-based ABA therapy session in Albany" class="right" >}} Standard ABA can feel rigid. We take a different path. We practice a neurodiversity-affirming, play-based form of Applied Behavior Analysis that honors the dignity of every child. Our priority is ensuring that therapy never comes at the expense of being a child.
 - **Strengths-Based**: We build plans around your child's unique abilities.
 - **Child-Led**: We use your child's passions—whether trains, space, or art—as the bridge to teaching new skills.
 
