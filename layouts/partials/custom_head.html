@@ -109,6 +109,20 @@ details > summary {
         text-align: center;
         hyphens: none;
     }
+    /* Make right-aligned images full width on mobile */
+    @media only screen and (max-width: 600px) {
+        figure.right {
+            float: none !important;
+            margin: 0 auto 1rem auto !important;
+            width: 100% !important;
+            text-align: center;
+        }
+        figure.right img {
+            width: 100% !important;
+            height: auto !important;
+            max-width: 100%;
+        }
+    }
 {{ end }}
 </style>
 
