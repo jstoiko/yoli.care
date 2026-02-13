@@ -1,5 +1,5 @@
 ---
-title: "The Yoli Model: What Sets Us Appart"
+title: "The Yoli Model: What Sets Us Apart"
 header_menu_title: "The Yoli Model"
 navigation_menu_title: "The Yoli Model"
 weight: 2
@@ -28,7 +28,7 @@ In an industry often driven by high volume, we take a different path. We maintai
 - **Consistency**: A manageable workload reduces burnout, leading to more consistent and reliable care for your family.
 
 #### Self-Directed Learning
-We believe that intrinsic motivation is the most powerful driver of learning. Rather than forcing a curriculum, we focus on your child’s specific interests—whether that is trains, space, art, or animals—and use those passions as the bridge to teaching new skills. When a child is engaged in what they love, learning becomes a joy rather than a chore.
+We believe that intrinsic motivation is the most powerful driver of learning. Rather than forcing a curriculum, we focus on your child’s specific interests—whether that is trains, space, art, or animals—and use those passions as the bridge to teaching new skills. Our clinicians are trained to build social and emotional goals directly into high-level cognitive play, making us a haven for **gifted and 2e learners**.
 
 #### Yoli’s Non-Profit Model
 As a non-profit organization, our bottom line is your child’s well-being, not shareholder returns. This model allows us to foster a **high-quality, supportive work environment** for our staff.
