@@ -10,7 +10,7 @@ header_logo: "images/yoli.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "Autism Care that cares"
-header_subheadline: "Nonprofit, Play-Based ABA Therapy for Autistic & Twice-Exceptional (2e) Learners in the East Bay"
+header_subheadline: "Nonprofit, Play-Based ABA: Supporting Every Child’s Unique Potential in the East Bay"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
