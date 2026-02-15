@@ -8,25 +8,33 @@ is_landing: true
 
 Where deep interests become the bridge to emotional growth.
 
-### Too Smart for "Basic" ABA, Too Struggling for Traditional School?
-{{< figure src="../images/2e-child-focus.jpg" width="300px" alt="Twice-exceptional child deeply focused on complex play" class="right" >}}
-Many gifted autistic children (2e) feel misunderstood. They can discuss black holes or transit systems in detail but may struggle with emotional regulation, flexibility, or social navigation. Traditional ABA often bores them with rote drills, while school environments may not support their sensory needs.
+### Too Smart for "Standard" ABA, Too Unique for One-Size-Fits-All Classrooms?
 
-At Yoli, we don't simplify the world for them. We use their intellect to build emotional resilience.
+{{< figure src="../images/2e-child-focus.jpg" width="300px" alt="Twice-exceptional child deeply focused on complex play" class="right" >}}
+
+Many gifted autistic children (2e) feel misunderstood. They can discuss black holes or transit systems in detail but may struggle with emotional regulation, flexibility, or navigating social situations.
+
+Traditional ABA often bores them with rote drills, while school environments may not support their sensory needs. At Yoli, we don't simplify the world for them. We use their intellect to build emotional resilience.
+
 - **Intellect as a Strength**: We don't take away their special interests; we use them. If your child loves physics, we use physics to teach perspective-taking and frustration tolerance.
 - **Cognitive Play**: Our clinicians are trained to engage in high-level play that challenges your child intellectually while supporting their emotional development.
 
-### A Sanctuary for the "Professor Kid"
-We understand the unique paradox of high cognition and high support needs. Whether your child has a diagnosis of **Autism (ASD)**, **ADHD**, or fits the profile previously described as **Asperger's** or **High-Functioning Autism**, we see their potential, not just a label.
+### A Space Where Their Mind is Met
+
+We understand the unique paradox of high cognition and high support needs. Whether your child has a diagnosis of **Autism (ASD)** or **ADHD**, we see their potential, not just a label.
+
 - **No Rote Drills**: We abandon the flashcards. Learning happens through naturalistic, intrinsic motivation.
 - **Autonomy & Respect**: We honor your child's "no" and teach them how to advocate for their needs respectfully, rather than demanding compliance.
 
 ### The Support You Need
+
 Raising a 2e child is a unique journey. We are here to partner with you.
+
 - **Parent Coaching**: Learn how to advocate for your child's unique brain in school and community settings.
 - **Low Sensory Environment**: Our clinic is designed to be calming, not chaotic, respecting your child's sensory profile.
 
 ### Let’s Connect
+
 We are currently accepting new 2e families in **Albany, Berkeley, El Cerrito, and surrounding areas**. If you're looking for a partner who "gets" your child's brilliance and their struggles, let's talk.
 
 {{< rawhtml >}}
