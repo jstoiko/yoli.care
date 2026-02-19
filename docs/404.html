@@ -73,7 +73,7 @@
     --section-light-text-color: var(--cover-text-color)!important;
     --section-light-bg-color: var(--highlight-inverse)!important;
     --section-dark-bg-color: var(--highlight)!important;
-    --section-uni-quote: black;
+    --section-uni-quote: var(--cover-text-color)!important;
     --sticky-menu-text-color: var(--cover-text-color)!important;
     --footer-color-background: var(--highlight-inverse)!important;
     --footer-color: var(--cover-text-color)!important;
@@ -127,6 +127,40 @@ details > summary {
         display: none;
     }
 }
+ 
+.cta-container {
+    text-align: center;
+    margin: 2.5rem 0 1rem 0;
+}
+.cta-button {
+    display: inline-block;
+    background-color: var(--highlight);
+    color: var(--highlight-contrast) !important;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    background-color: #5a8c49;  
+    text-decoration: none;
+}
+.cta-subtext {
+    display: block;
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+
 
 </style>
 
@@ -139,10 +173,10 @@ details > summary {
 <nav class="top-menu">
   <div class="top-menu-items">
     <div class="top-menu-item">
-      <b>Now Accepting New Client:</b> <a href="https://forms.gle/EFY2tqJVWx2terSu5">Start here</a>
+      <b>🟢 Now Accepting New Families — </b> <a href="https://forms.gle/EFY2tqJVWx2terSu5">Contact Us <i class="fa-solid fa-envelope"></i></a>
     </div>
     <div class="top-menu-item">
-      <a href="/donate">Support our mission <i class="fa-solid fa-star"></i></a>
+      <b>or call/text</b> <a href="#ZgotmplZ">(510) 679-2782 <i class="fa-solid fa-phone"></i></a>
     </div>
   </div>
 </nav>
@@ -200,7 +234,7 @@ details > summary {
     
     
 
-    <script src="/js/script.min.e160528b633462bdeb2be407a18efdca8e33f3d7213b874346848ede0348993f.js" integrity="sha256-4WBSi2M0Yr3rK&#43;QHoY79yo4z89chO4dDRoSO3gNImT8=" ></script>
+    <script src="/js/script.min.1135bcb2134a29d049476b29e89b7806902aafcded2a2f0a5a92e12430ecd311.js" integrity="sha256-ETW8shNKKdBJR2sp6Jt4BpAqr83tKi8KWpLhJDDs0xE=" ></script>
 
     
     <script>cssVars();</script>

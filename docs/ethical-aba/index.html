@@ -50,7 +50,7 @@
 
   <meta itemprop="name" content="Ethical, Play-Based ABA Therapy in Albany, CA">
   <meta itemprop="description" content="Discover progressive, neurodiversity-affirming ABA therapy in Albany and Berkeley. A non-profit, child-led approach prioritizing connection and dignity.">
-  <meta itemprop="wordCount" content="226">
+  <meta itemprop="wordCount" content="697">
   <meta itemprop="image" content="https://yoli.care/images/yoli-preview.png">
 
 
@@ -82,7 +82,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     --section-light-text-color: var(--cover-text-color)!important;
     --section-light-bg-color: var(--highlight-inverse)!important;
     --section-dark-bg-color: var(--highlight)!important;
-    --section-uni-quote: black;
+    --section-uni-quote: var(--cover-text-color)!important;
     --sticky-menu-text-color: var(--cover-text-color)!important;
     --footer-color-background: var(--highlight-inverse)!important;
     --footer-color: var(--cover-text-color)!important;
@@ -136,45 +136,127 @@ details > summary {
         display: none;
     }
 }
+ 
+.cta-container {
+    text-align: center;
+    margin: 2.5rem 0 1rem 0;
+}
+.cta-button {
+    display: inline-block;
+    background-color: var(--highlight);
+    color: var(--highlight-contrast) !important;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    background-color: #5a8c49;  
+    text-decoration: none;
+}
+.cta-subtext {
+    display: block;
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
 
-     
-    .top-menu {
-        display: none;
-    }
-    .post {
-        max-width: 1024px;
-        padding-top: 1rem;
-    }
-    .page-template .post-header  {
-        display: block; 
-        width: 100px;
-        height: 100px;
-        background-image: url("/images/yoli.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        text-indent: -9999px;
-        overflow: hidden;
-        padding: 0;
-        margin: 0 auto;
-    }
-    .page-template .post-title {
+
+
+ 
+.top-menu {
+    display: none;
+}
+.post {
+    max-width: 1024px;
+    padding-top: 1rem;
+}
+.page-template .post-header  {
+    display: block; 
+    width: 100px;
+    height: 100px;
+    background-image: url("/images/yoli.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+}
+.page-template .post-title {
+    text-align: center;
+    hyphens: none;
+}
+ 
+@media only screen and (max-width: 900px) {
+    figure.right {
+        float: none !important;
+        margin: 0 auto 1rem auto !important;
+        width: 100% !important;
         text-align: center;
-        hyphens: none;
     }
-     
-    @media only screen and (max-width: 600px) {
-        figure.right {
-            float: none !important;
-            margin: 0 auto 1rem auto !important;
-            width: 100% !important;
-            text-align: center;
-        }
-        figure.right img {
-            width: 100% !important;
-            height: auto !important;
-            max-width: 100%;
-        }
+    figure.right img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
     }
+}
+
+ 
+.post-content > p:first-of-type {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: var(--cover-text-color);
+}
+
+ 
+table {
+    font-size: 0.9em;  
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+table th {
+    font-size: 1.5rem;
+    font-weight: normal;
+    background-color: var(--highlight-inverse);
+    color: var(--cover-text-color);
+    padding: 1rem;
+    text-align: left;
+}
+table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+ 
+li p + p {
+    margin-top: 0.2rem;  
+}
+
+ 
+.list-with-check {
+    --ul-li-icon: "fa-check";  
+}
+
+ 
+.clear-float {
+    clear: both;
+    display: block;
+    height: 0;
+    margin: 0;
+}
 
 </style>
 
@@ -192,10 +274,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <nav class="top-menu">
   <div class="top-menu-items">
     <div class="top-menu-item">
-      <b>Now Accepting New Client:</b> <a href="https://forms.gle/EFY2tqJVWx2terSu5">Start here</a>
+      <b>🟢 Now Accepting New Families — </b> <a href="https://forms.gle/EFY2tqJVWx2terSu5">Contact Us <i class="fa-solid fa-envelope"></i></a>
     </div>
     <div class="top-menu-item">
-      <a href="/donate">Support our mission <i class="fa-solid fa-star"></i></a>
+      <b>or call/text</b> <a href="#ZgotmplZ">(510) 679-2782 <i class="fa-solid fa-phone"></i></a>
     </div>
   </div>
 </nav>
@@ -213,13 +295,196 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Where therapy feels like play, and learning is a joy—not a chore.</p>
 <h3 id="the-yoli-difference-kids-first">The &ldquo;Yoli&rdquo; Difference: Kids First</h3>
 <p><figure class="right"><img src="../images/therapy-session.jpg"
-    alt="Child engaged in play-based ABA therapy session in Albany" width="300px">
+    alt="Child engaged in play-based ABA therapy session in Albany" width="512px">
 </figure>
  Standard ABA can feel rigid. We take a different path. We practice a neurodiversity-affirming, play-based form of Applied Behavior Analysis that honors the dignity of every child. Our priority is ensuring that therapy never comes at the expense of being a child.</p>
 <ul>
 <li><strong>Strengths-Based</strong>: We build plans around your child&rsquo;s unique abilities.</li>
 <li><strong>Child-Led</strong>: We use your child&rsquo;s passions—whether trains, space, or art—as the bridge to teaching new skills.</li>
 </ul>
+<div class="clear-float"></div>
+
+
+
+
+
+
+
+
+<div id="cta-anchor" class="cta-container">
+    <a href="#contact-form" class="cta-button">Schedule Free Call</a>
+    <span class="cta-subtext">(No pressure, no commitment — just a conversation about your child&#39;s needs)</span>
+</div>
+
+
+
+<div id="cta-floater" class="cta-container float hidden">
+    <a href="#contact-form" class="cta-button">Schedule Free Call</a>
+    
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const floater = document.getElementById('cta-floater');
+    const anchor = document.getElementById('cta-anchor');
+    
+    
+    let targetElement = null;
+    const href = "#contact-form";
+    if (href.startsWith('#')) {
+        const targetId = href.substring(1);
+        targetElement = document.getElementById(targetId);
+    }
+    
+    if (!floater || !anchor) return;
+
+    function updateFloat() {
+        const viewportHeight = window.innerHeight;
+        const rect = anchor.getBoundingClientRect(); 
+        
+        
+        let reachedTarget = false;
+        if (targetElement) {
+            const targetRect = targetElement.getBoundingClientRect();
+            
+            if (targetRect.top < viewportHeight) {
+                reachedTarget = true;
+            }
+        }
+
+        
+        
+        const anchorIsVisible = (rect.top < viewportHeight && rect.bottom > 0);
+
+        
+        
+        
+        
+        
+        let showFloater = false;
+        let floatPosition = 'bottom'; 
+
+        if (!reachedTarget && !anchorIsVisible) {
+             
+             if (rect.top > viewportHeight) {
+                 
+                 
+                 showFloater = true;
+                 floatPosition = 'bottom';
+             } else if (rect.bottom < 0) {
+                 
+                 showFloater = true;
+                 floatPosition = 'top';
+             }
+        }
+
+        
+        if (showFloater) {
+            floater.classList.remove('hidden');
+            if (floatPosition === 'top') {
+                floater.classList.remove('floating-bottom');
+                floater.classList.add('floating-top');
+            } else {
+                floater.classList.remove('floating-top');
+                floater.classList.add('floating-bottom');
+            }
+        } else {
+            
+            floater.classList.add('hidden');
+        }
+    }
+
+    window.addEventListener('scroll', updateFloat);
+    window.addEventListener('resize', updateFloat);
+    updateFloat();
+});
+</script>
+
+<style>
+ 
+#cta-floater {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-align: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+     
+}
+
+#cta-floater.floating-bottom {
+    bottom: 20px;
+}
+
+#cta-floater.floating-top {
+    top: 20px;
+}
+
+#cta-floater.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) scale(0.95);  
+}
+
+ 
+#cta-floater .cta-subtext {
+    display: none;
+}
+
+#cta-floater .cta-button {
+    display: block;
+    margin: 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);  
+}
+</style>
+
+
+<h3 id="why-families-choose-yoli">Why Families Choose Yoli</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Traditional / For-Profit ABA</th>
+          <th>The <strong>Yoli</strong> Way</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Prioritizes billable hours</strong> over meaningful outcomes</td>
+          <td><strong>Prioritizes your child&rsquo;s well-being</strong> — we&rsquo;re a nonprofit, not driven by shareholder returns</td>
+      </tr>
+      <tr>
+          <td><strong>High therapist caseloads</strong> (30+ clients per BCBA) lead to burnout and inconsistent care</td>
+          <td><strong>Low, manageable caseloads</strong> so your therapist can give focused, personalized attention</td>
+      </tr>
+      <tr>
+          <td><strong>Compliance-focused:</strong> Teaching children to follow instructions and conform to social norms</td>
+          <td><strong>Autonomy-focused:</strong> Building independence, self-advocacy, and honoring neurodiversity</td>
+      </tr>
+      <tr>
+          <td><strong>Curriculum-driven:</strong> One-size-fits-all programs</td>
+          <td><strong>Child-led learning:</strong> We follow your child&rsquo;s interests (trains, art, space) to teach new skills</td>
+      </tr>
+      <tr>
+          <td><strong>Table-time drills</strong> that can feel like work</td>
+          <td><strong>Play-based sessions</strong> where learning happens through joy</td>
+      </tr>
+      <tr>
+          <td><strong>High staff turnover</strong> (the best clinicians leave or go out-of-network)</td>
+          <td><strong>Stable, passionate team</strong> — we retain top clinicians with competitive pay and healthy workloads</td>
+      </tr>
+      <tr>
+          <td><strong>Leadership with little clinical expertise</strong> focused on growth and profits</td>
+          <td><strong>BCBA-led organization</strong> committed to clinical excellence and ethical practice</td>
+      </tr>
+      <tr>
+          <td><strong>Families feel like customers</strong> in a transactional relationship</td>
+          <td><strong>Families become part of a supportive community</strong> with regular family gatherings</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="-were-currently-accepting-new-families">🟢 We&rsquo;re Currently Accepting New Families</h3>
+<p>Yoli maintains low caseloads to ensure quality care. Due to high demand in the East Bay, spots fill quickly. If you&rsquo;re considering ABA therapy for your child, <strong>now is the time to schedule your free consultation.</strong></p>
+<p>Serving families in <strong>Albany, Berkeley, El Cerrito, Kensington, and surrounding areas</strong>.</p>
 <h3 id="quality-over-quantity">Quality Over Quantity</h3>
 <p>In an industry often driven by high volume, we refuse to cut corners.</p>
 <ul>
@@ -232,11 +497,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><strong>Community</strong>: We facilitate family gatherings to encourage mutual support among parents and siblings.</li>
 <li><strong>Non-Profit Mission</strong>: As a non-profit, our bottom line is your child’s well-being, not shareholder returns.</li>
 </ul>
-<h3 id="lets-start-the-conversation">Let’s start the conversation</h3>
-<p>We are currently accepting new families in <strong>Albany, Berkeley, El Cerrito, Kensington and surrounding areas</strong>. Let&rsquo;s get to know each other. Reach out to schedule a free, no-pressure chat about your child&rsquo;s needs. We prioritize interventions that lead to long-term outcomes like happiness and independence.</p>
+<h3 id="accessible-care-for-all-families">Accessible Care for All Families</h3>
+<ul>
+<li>We accept most major insurance plans</li>
+<li>Vendorized with the <strong>Regional Center of the East Bay (RCEB)</strong>, <strong>Contra Costa Health Plan (CCHP)</strong>, <strong>Alameda Alliance</strong>, and <strong>Partnership HealthPlan (PHC)</strong></li>
+<li>MediCal approved</li>
+<li>We offer a sliding fee scale for families without insurance</li>
+<li>We&rsquo;re committed to never turning families away due to cost</li>
+</ul>
+<p>Questions about coverage? We&rsquo;ll help you navigate your benefits — just ask during your free consultation call.</p>
+<h3 id="meet-our-clinical-director--founder">Meet our Clinical Director (&amp; Founder)</h3>
+<figure class="left"><img src="../images/laura.png"
+    alt="Laura Kliger" width="150">
+</figure>
+
+<blockquote>
+<p>Hello. I am a <strong>Board Certified Behavior Analyst</strong> (<strong>BCBA</strong>) with an insatiable passion for child development and self-directed learning. I have been working in many settings (homes, schools, clinics and in the community) with children of all ages. I have been supporting parents, teachers, and therapists to better understand and manage behaviors. My passion is to help parents reclaim their role; to understand their child’s behavior and to make changes that allow the family to live in a more cohesive and symbiotic way. &ndash; <em>Laura Kliger, BCBA, MADS</em></p>
+</blockquote>
+<div class="clear-float"></div>
+<h3 id="what-happens-after-you-reach-out">What Happens After You Reach Out?</h3>
+<ol>
+<li><strong>15-Minute</strong> Phone Call<br>
+We&rsquo;ll discuss your child&rsquo;s needs and determine if Yoli is a good fit</li>
+<li><strong>Initial Meeting</strong> (if we&rsquo;re a match)<br>
+Learn about our approach, ask questions, and meet our team</li>
+<li><strong>Intake &amp; Evaluation</strong><br>
+We observe your child and develop a personalized treatment plan</li>
+<li><strong>Treatment</strong> Begins<br>
+Play-based sessions at our Albany playspace or in the community, with parent involvement</li>
+</ol>
+<p>No pressure at any step — we want to make sure Yoli is right for YOU.</p>
+<h3 id="why-parents-trust-yoli">Why Parents Trust Yoli</h3>
+<ul class="list-with-check">
+<li><strong>BCBA-led</strong> organization (Board Certified Behavior Analysts)</li>
+<li>501(c)(3) <strong>nonprofit</strong> — <strong>mission-driven</strong>, not profit-driven</li>
+<li>Evidence-based, <strong>neurodiversity-affirming</strong> approach</li>
+<li><strong>Low caseloads</strong> means consistent, quality care</li>
+<li><strong>Licensed</strong> &amp; insured (NPI: 1134010382)</li>
+<li><strong>Physical playspace</strong> in Albany (1057 Solano Ave)</li>
+</ul>
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe id="contact-form" src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1150" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 
@@ -283,7 +585,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     
 
-    <script src="/js/script.min.e160528b633462bdeb2be407a18efdca8e33f3d7213b874346848ede0348993f.js" integrity="sha256-4WBSi2M0Yr3rK&#43;QHoY79yo4z89chO4dDRoSO3gNImT8=" ></script>
+    <script src="/js/script.min.1135bcb2134a29d049476b29e89b7806902aafcded2a2f0a5a92e12430ecd311.js" integrity="sha256-ETW8shNKKdBJR2sp6Jt4BpAqr83tKi8KWpLhJDDs0xE=" ></script>
 
     
     <script>cssVars();</script>

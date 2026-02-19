@@ -53,6 +53,8 @@
 
   <meta itemprop="name" content="Yoli - Autism care that cares">
   <meta itemprop="description" content="Yoli offers neurodiversity-affirming, play-based ABA therapy in Albany, CA. A nonprofit serving Berkeley, El Cerrito, and the East Bay with a child-led focus.">
+  <meta itemprop="datePublished" content="2026-02-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-02-17T00:00:00+00:00">
   <meta itemprop="image" content="https://yoli.care/images/yoli-preview.png">
 
 
@@ -74,7 +76,7 @@
     --section-light-text-color: var(--cover-text-color)!important;
     --section-light-bg-color: var(--highlight-inverse)!important;
     --section-dark-bg-color: var(--highlight)!important;
-    --section-uni-quote: black;
+    --section-uni-quote: var(--cover-text-color)!important;
     --sticky-menu-text-color: var(--cover-text-color)!important;
     --footer-color-background: var(--highlight-inverse)!important;
     --footer-color: var(--cover-text-color)!important;
@@ -128,6 +130,40 @@ details > summary {
         display: none;
     }
 }
+ 
+.cta-container {
+    text-align: center;
+    margin: 2.5rem 0 1rem 0;
+}
+.cta-button {
+    display: inline-block;
+    background-color: var(--highlight);
+    color: var(--highlight-contrast) !important;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    background-color: #5a8c49;  
+    text-decoration: none;
+}
+.cta-subtext {
+    display: block;
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+
 
 </style>
 
@@ -140,10 +176,10 @@ details > summary {
 <nav class="top-menu">
   <div class="top-menu-items">
     <div class="top-menu-item">
-      <b>Now Accepting New Client:</b> <a href="https://forms.gle/EFY2tqJVWx2terSu5">Start here</a>
+      <b>🟢 Now Accepting New Families — </b> <a href="https://forms.gle/EFY2tqJVWx2terSu5">Contact Us <i class="fa-solid fa-envelope"></i></a>
     </div>
     <div class="top-menu-item">
-      <a href="/donate">Support our mission <i class="fa-solid fa-star"></i></a>
+      <b>or call/text</b> <a href="#ZgotmplZ">(510) 679-2782 <i class="fa-solid fa-phone"></i></a>
     </div>
   </div>
 </nav>
@@ -300,7 +336,23 @@ details > summary {
 <p>The <strong>commercialization of autism care</strong> has exacerbated these challenges. Many for-profit ABA providers <strong>prioritize financial growth over clinical quality</strong>. High turnover rates among behavior specialists, cost-cutting measures, and leadership with little to no clinical expertise have created an industry that <strong>focuses on billables rather than skill acquisition and behavioral improvement</strong>. Additionally, despite ethical concerns, the ever-increasing <strong>demand for academic performance and conformity</strong> has created a push for providers to use ABA in <strong>enforcing social normative behaviors</strong>, instead of nurturing the child’s unique potential. As a result, <strong>the best professionals leave the field</strong> or move out of network, <strong>making quality autism care increasingly inaccessible</strong>.</p>
 <p>Our mission is to <strong>make high-quality, evidence-based, child-centered autism care accessible</strong> to all families by developing a sustainable, community-centered model that <strong>prioritizes clinical excellence</strong>. We are dedicated to serving children <strong>across the entire autism spectrum</strong>, ensuring that every child—regardless of their level of support needs—receives the specialized attention they deserve. We achieve this by <strong>hiring and retaining passionate behavior specialists</strong> at competitive rates while supplementing insurance reimbursements with additional funding sources only available to nonprofit organizations. By removing financial barriers and focusing on each child’s unique strengths, we aim to provide <strong>equitable, consistent, and effective care for all children</strong> with autism, regardless of socioeconomic status.</p>
 <p><img src="images/kids-playing-with-wood-cubes.jpg" alt="Kids playing at Yoli"></p>
-<p>Yoli is a 501(c)(3) nonprofit organization, and donations are fully tax-deductible. If Yoli&rsquo;s mission resonates with you, please consider <a href="/donate/">supporting our mission</a>.</p>
+<p>Yoli is a 501(c)(3) nonprofit organization, and donations are fully tax-deductible. If Yoli&rsquo;s mission resonates with you, please consider supporting our mission.</p>
+
+
+
+
+
+
+
+
+<div id="cta-anchor" class="cta-container">
+    <a href="/donate" class="cta-button">Donate</a>
+    <span class="cta-subtext">(We accept both In-kind, monetary and corporate donations)</span>
+</div>
+
+
+
+
 
                 </section>
             </article>
@@ -476,8 +528,23 @@ details > summary {
                     <h2 class="post-title">Getting in touch</h2>
                 </header>
                 <section class="post-content">
-                    <p>Feel free to contact us using <a href="https://forms.gle/EFY2tqJVWx2terSu5" target="_blank">this form</a>
-. We will respond within 2 business days.</p>
+                    <p>🟢 We&rsquo;re Currently Accepting New Families for both <strong>Assessement</strong> and <strong>Therapy</strong>.</p>
+
+
+
+
+
+
+
+
+<div id="cta-anchor" class="cta-container">
+    <a href="https://forms.gle/EFY2tqJVWx2terSu5" class="cta-button">Contact Us</a>
+    <span class="cta-subtext">(Fill a short form — and we will respond within 2 business days)</span>
+</div>
+
+
+
+
 
     <p>
         <i class="fa fa-phone"></i>&nbsp;
@@ -559,7 +626,7 @@ details > summary {
     
     
 
-    <script src="/js/script.min.e160528b633462bdeb2be407a18efdca8e33f3d7213b874346848ede0348993f.js" integrity="sha256-4WBSi2M0Yr3rK&#43;QHoY79yo4z89chO4dDRoSO3gNImT8=" ></script>
+    <script src="/js/script.min.1135bcb2134a29d049476b29e89b7806902aafcded2a2f0a5a92e12430ecd311.js" integrity="sha256-ETW8shNKKdBJR2sp6Jt4BpAqr83tKi8KWpLhJDDs0xE=" ></script>
 
     
     <script>cssVars();</script>
