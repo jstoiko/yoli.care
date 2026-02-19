@@ -6,7 +6,9 @@ weight: 5
 header_menu: true
 ---
 
-Feel free to contact us using {{<extlink text="this form" href="https://forms.gle/EFY2tqJVWx2terSu5">}}. We will respond within 2 business days.
+🟢 We're Currently Accepting New Families for both **Assessement** and **Therapy**.
+
+{{< cta-button text="Contact Us" href="https://forms.gle/EFY2tqJVWx2terSu5" subtext="(Fill a short form — and we will respond within 2 business days)" >}}
 
 {{<contact_list>}}
 
