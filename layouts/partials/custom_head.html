@@ -27,7 +27,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     --section-light-text-color: var(--cover-text-color)!important;
     --section-light-bg-color: var(--highlight-inverse)!important;
     --section-dark-bg-color: var(--highlight)!important;
-    --section-uni-quote: black;
+    --section-uni-quote: var(--cover-text-color)!important;
     --sticky-menu-text-color: var(--cover-text-color)!important;
     --footer-color-background: var(--highlight-inverse)!important;
     --footer-color: var(--cover-text-color)!important;
@@ -84,45 +84,127 @@ details > summary {
         display: none;
     }
 }
+/* CTA Button Styles */
+.cta-container {
+    text-align: center;
+    margin: 2.5rem 0 1rem 0;
+}
+.cta-button {
+    display: inline-block;
+    background-color: var(--highlight);
+    color: var(--highlight-contrast) !important;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    background-color: #5a8c49; /* Slightly lighter green */
+    text-decoration: none;
+}
+.cta-subtext {
+    display: block;
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+
 {{ if .Params.is_landing }}
-    /* Special overides for langing pages */
-    .top-menu {
-        display: none;
-    }
-    .post {
-        max-width: 1024px;
-        padding-top: 1rem;
-    }
-    .page-template .post-header  {
-        display: block; 
-        width: 100px;
-        height: 100px;
-        background-image: url("/images/yoli.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        text-indent: -9999px;
-        overflow: hidden;
-        padding: 0;
-        margin: 0 auto;
-    }
-    .page-template .post-title {
+/* Special overides for langing pages */
+.top-menu {
+    display: none;
+}
+.post {
+    max-width: 1024px;
+    padding-top: 1rem;
+}
+.page-template .post-header  {
+    display: block; 
+    width: 100px;
+    height: 100px;
+    background-image: url("/images/yoli.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+}
+.page-template .post-title {
+    text-align: center;
+    hyphens: none;
+}
+/* Make right-aligned images full width on mobile */
+@media only screen and (max-width: 900px) {
+    figure.right {
+        float: none !important;
+        margin: 0 auto 1rem auto !important;
+        width: 100% !important;
         text-align: center;
-        hyphens: none;
     }
-    /* Make right-aligned images full width on mobile */
-    @media only screen and (max-width: 600px) {
-        figure.right {
-            float: none !important;
-            margin: 0 auto 1rem auto !important;
-            width: 100% !important;
-            text-align: center;
-        }
-        figure.right img {
-            width: 100% !important;
-            height: auto !important;
-            max-width: 100%;
-        }
+    figure.right img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
     }
+}
+
+/* Center-justify the tagline (first paragraph) */
+.post-content > p:first-of-type {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: var(--cover-text-color);
+}
+
+/* Table Styles */
+table {
+    font-size: 0.9em; /* Smaller content */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+table th {
+    font-size: 1.5rem;
+    font-weight: normal;
+    background-color: var(--highlight-inverse);
+    color: var(--cover-text-color);
+    padding: 1rem;
+    text-align: left;
+}
+table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+/* List Spacing */
+li p + p {
+    margin-top: 0.2rem; /* Reduce space between paragraphs in list items */
+}
+
+/* Checkmark List for Trust Section */
+.list-with-check {
+    --ul-li-icon: "fa-check"; /* Override the icon for this class */
+}
+
+/* Clearfix for figure */
+.clear-float {
+    clear: both;
+    display: block;
+    height: 0;
+    margin: 0;
+}
 {{ end }}
 </style>
 

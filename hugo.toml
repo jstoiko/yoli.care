@@ -13,16 +13,22 @@ enableEmoji = true
 # Override default publishing (/public) path
 publishDir = "docs"
 
+# Enable Block attributes
+[markup.goldmark.parser.attribute]
+block = true
+
 [[menu.main]]
-    pre = "Now Accepting New Client:"
-    name = "Start here"
+    pre = "🟢 Now Accepting New Families — "
+    name = "Contact Us"
     url = "https://forms.gle/EFY2tqJVWx2terSu5"
+    post = '<i class="fa-solid fa-envelope"></i>'
     weight = 1
 
 [[menu.main]]
-    name = "Support our mission"
-    url = "/donate"
-    post = '<i class="fa-solid fa-star"></i>'
+    pre = "or call/text"
+    name = "(510) 679-2782"
+    url = "tel:+1 510 679-2782"
+    post = '<i class="fa-solid fa-phone"></i>'
     weight = 2
 
 # Theme-specific variables `.Site.Params.myParamName`

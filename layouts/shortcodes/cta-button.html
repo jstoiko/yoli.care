@@ -1,0 +1,141 @@
+{{ $float := .Get "float" | default false }}
+{{ $href := .Get "href" | default "#contact-form" }}
+{{ $text := .Get "text" | default "Schedule Free Call" }}
+{{ $subtext := .Get "subtext" | default "(No pressure, no commitment — just a conversation about your child's needs)" }}
+
+{{/* 
+  STRATEGY:
+  1. We need TWO buttons for smooth floating behavior without layout shifts.
+  2. One is the "Static" button (always in the flow, never moves).
+  3. One is the "Floating" button (fixed position, toggles visibility).
+  4. This completely eliminates flickering because the layout never changes.
+*/}}
+
+{{/* 1. The Static Button (Anchor) - Always sits in the content */}}
+<div id="cta-anchor" class="cta-container">
+    <a href="{{ $href }}" class="cta-button">{{ $text }}</a>
+    {{ if $subtext }}<span class="cta-subtext">{{ $subtext }}</span>{{ end }}
+</div>
+
+{{/* 2. The Floating Button - Only exists if float=true */}}
+{{ if $float }}
+<div id="cta-floater" class="cta-container float hidden">
+    <a href="{{ $href }}" class="cta-button">{{ $text }}</a>
+    {{/* Subtext is usually hidden in floating mode via CSS */}}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const floater = document.getElementById('cta-floater');
+    const anchor = document.getElementById('cta-anchor');
+    
+    // Extract target ID from href (e.g. "#contact-form" -> "contact-form")
+    let targetElement = null;
+    const href = "{{ $href }}";
+    if (href.startsWith('#')) {
+        const targetId = href.substring(1);
+        targetElement = document.getElementById(targetId);
+    }
+    
+    if (!floater || !anchor) return;
+
+    function updateFloat() {
+        const viewportHeight = window.innerHeight;
+        const rect = anchor.getBoundingClientRect(); 
+        
+        // 1. Check if we reached the target form
+        let reachedTarget = false;
+        if (targetElement) {
+            const targetRect = targetElement.getBoundingClientRect();
+            // Hide floater well before it hits the form to avoid overlap/clutter
+            if (targetRect.top < viewportHeight) {
+                reachedTarget = true;
+            }
+        }
+
+        // 2. Determine if the anchor (static button) is currently visible
+        // We consider it "visible" if it's anywhere in the viewport
+        const anchorIsVisible = (rect.top < viewportHeight && rect.bottom > 0);
+
+        // 3. Logic:
+        // - If we reached the target form -> Hide Floater
+        // - If the static anchor IS visible -> Hide Floater (show static)
+        // - If static anchor is NOT visible (scrolled past) -> Show Floater
+        
+        let showFloater = false;
+        let floatPosition = 'bottom'; // default
+
+        if (!reachedTarget && !anchorIsVisible) {
+             // Anchor is not visible. Where is it?
+             if (rect.top > viewportHeight) {
+                 // It's below the viewport (we haven't reached it yet)
+                 // Usually we want to show floater here too?
+                 showFloater = true;
+                 floatPosition = 'bottom';
+             } else if (rect.bottom < 0) {
+                 // It's above the viewport (we scrolled past it)
+                 showFloater = true;
+                 floatPosition = 'top';
+             }
+        }
+
+        // Apply state to the FLOATER only
+        if (showFloater) {
+            floater.classList.remove('hidden');
+            if (floatPosition === 'top') {
+                floater.classList.remove('floating-bottom');
+                floater.classList.add('floating-top');
+            } else {
+                floater.classList.remove('floating-top');
+                floater.classList.add('floating-bottom');
+            }
+        } else {
+            // Hide the floater, let the static anchor do the work
+            floater.classList.add('hidden');
+        }
+    }
+
+    window.addEventListener('scroll', updateFloat);
+    window.addEventListener('resize', updateFloat);
+    updateFloat();
+});
+</script>
+
+<style>
+/* Floating Button Styles */
+#cta-floater {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-align: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    /* Ensure it doesn't block clicks when hidden */
+}
+
+#cta-floater.floating-bottom {
+    bottom: 20px;
+}
+
+#cta-floater.floating-top {
+    top: 20px;
+}
+
+#cta-floater.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) scale(0.95); /* subtle zoom out when hiding */
+}
+
+/* Hide subtext in floating mode */
+#cta-floater .cta-subtext {
+    display: none;
+}
+
+#cta-floater .cta-button {
+    display: block;
+    margin: 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Add shadow to floater */
+}
+</style>
+{{ end }}
