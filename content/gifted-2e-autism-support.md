@@ -10,7 +10,7 @@ Where deep interests become the bridge to emotional growth.
 
 ### Too Smart for "Standard" ABA, Too Unique for One-Size-Fits-All Classrooms?
 
-{{< figure src="../images/2e-child-focus.jpg" width="300px" alt="Twice-exceptional child deeply focused on complex play" class="right" >}}
+{{< figure src="../images/2e-child-focus.jpg" width="512px" alt="Twice-exceptional child deeply focused on complex play" class="right" >}}
 
 Many gifted autistic children (2e) feel misunderstood. They can discuss black holes or transit systems in detail but may struggle with emotional regulation, flexibility, or navigating social situations.
 
@@ -18,6 +18,14 @@ Traditional ABA often bores them with rote drills, while school environments may
 
 - **Intellect as a Strength**: We don't take away their special interests; we use them. If your child loves physics, we use physics to teach perspective-taking and frustration tolerance.
 - **Cognitive Play**: Our clinicians are trained to engage in high-level play that challenges your child intellectually while supporting their emotional development.
+
+{{< clearfloat >}}
+
+{{< cta-button float="true" text="Schedule Free Call" href="#contact-form" subtext="(No pressure, no commitment — just a conversation about your child's needs)" >}}
+
+{{< include-markdown "content/snippets/why-families-choose-yoli.md" >}}
+
+{{< include-markdown "content/snippets/accepting-new-families.md" >}}
 
 ### A Space Where Their Mind is Met
 
@@ -37,6 +45,14 @@ Raising a 2e child is a unique journey. We are here to partner with you.
 
 We are currently accepting new 2e families in **Albany, Berkeley, El Cerrito, and surrounding areas**. If you're looking for a partner who "gets" your child's brilliance and their struggles, let's talk.
 
+{{< include-markdown "content/snippets/accessible-care.md" >}}
+
+{{< include-markdown "content/snippets/meet-our-clinical-director.md" >}}
+
+{{< include-markdown "content/snippets/what-happens-next.md" >}}
+
+{{< include-markdown "content/snippets/why-parents-trust-yoli.md" >}}
+
 {{< rawhtml >}}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe id="contact-form" src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 {{< /rawhtml >}}

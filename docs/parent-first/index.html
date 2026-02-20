@@ -50,7 +50,7 @@
 
   <meta itemprop="name" content="ABA Therapy That Doesn&#39;t Feel Like a Battle | Yoli">
   <meta itemprop="description" content="Stop choosing between therapy and your child&#39;s happiness. Discover Yoli&#39;s gentle, connection-first approach in Albany. No battles, just growth.">
-  <meta itemprop="wordCount" content="203">
+  <meta itemprop="wordCount" content="723">
   <meta itemprop="image" content="https://yoli.care/images/yoli-preview.png">
 
 
@@ -295,10 +295,187 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>You’ve been told you have to be a &ldquo;therapist first, parent second.&rdquo; We believe that’s wrong.</p>
 <h3 id="trust-your-gut">Trust Your Gut</h3>
 <p><figure class="right"><img src="../images/Parent-First.jpeg"
-    alt="Child playing with a train with their mom in Albany, CA" width="300px">
+    alt="Child playing with a train with their mom in Albany, CA" width="512px">
 </figure>
  If therapy feels rigid, cold, or forceful, then that’s counter to a child’s natural development and may even hinder growth. You shouldn&rsquo;t have to dread driving to the clinic, and your child shouldn&rsquo;t have to cry through sessions to &ldquo;learn.&rdquo;</p>
 <p>At Yoli, we practice <strong>Connection Before Correction</strong>. We believe that children learn best when they feel safe, loved, and understood—not when they are actively fighting for autonomy.</p>
+<div class="clear-float"></div>
+
+
+
+
+
+
+<div id="cta-anchor" class="cta-container">
+    <a href="#contact-form" class="cta-button">Schedule Free Call</a>
+    <span class="cta-subtext">(No pressure, no commitment — just a conversation about your child&#39;s needs)</span>
+</div>
+
+
+
+<div id="cta-floater" class="cta-container float hidden">
+    <a href="#contact-form" class="cta-button">Schedule Free Call</a>
+    
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const floater = document.getElementById('cta-floater');
+    const anchor = document.getElementById('cta-anchor');
+    
+    
+    let targetElement = null;
+    const href = "#contact-form";
+    if (href.startsWith('#')) {
+        const targetId = href.substring(1);
+        targetElement = document.getElementById(targetId);
+    }
+    
+    if (!floater || !anchor) return;
+
+    function updateFloat() {
+        const viewportHeight = window.innerHeight;
+        const rect = anchor.getBoundingClientRect(); 
+        
+        
+        let reachedTarget = false;
+        if (targetElement) {
+            const targetRect = targetElement.getBoundingClientRect();
+            
+            if (targetRect.top < viewportHeight) {
+                reachedTarget = true;
+            }
+        }
+
+        
+        
+        const anchorIsVisible = (rect.top < viewportHeight && rect.bottom > 0);
+
+        
+        
+        
+        
+        
+        let showFloater = false;
+        let floatPosition = 'bottom'; 
+
+        if (!reachedTarget && !anchorIsVisible) {
+             
+             if (rect.top > viewportHeight) {
+                 
+                 
+                 showFloater = true;
+                 floatPosition = 'bottom';
+             } else if (rect.bottom < 0) {
+                 
+                 showFloater = true;
+                 floatPosition = 'top';
+             }
+        }
+
+        
+        if (showFloater) {
+            floater.classList.remove('hidden');
+            if (floatPosition === 'top') {
+                floater.classList.remove('floating-bottom');
+                floater.classList.add('floating-top');
+            } else {
+                floater.classList.remove('floating-top');
+                floater.classList.add('floating-bottom');
+            }
+        } else {
+            
+            floater.classList.add('hidden');
+        }
+    }
+
+    window.addEventListener('scroll', updateFloat);
+    window.addEventListener('resize', updateFloat);
+    updateFloat();
+});
+</script>
+
+<style>
+ 
+#cta-floater {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-align: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#cta-floater.floating-bottom {
+    bottom: 20px;
+}
+#cta-floater.floating-top {
+    top: 20px;
+}
+#cta-floater.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%) scale(0.95);  
+}
+ 
+#cta-floater .cta-subtext {
+    display: none;
+}
+#cta-floater .cta-button {
+    display: block;
+    margin: 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);  
+}
+</style>
+
+
+<h3 id="why-families-choose-yoli">Why Families Choose Yoli</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Traditional / For-Profit ABA</th>
+          <th>The <strong>Yoli</strong> Way</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Prioritizes billable hours</strong> over meaningful outcomes</td>
+          <td><strong>Prioritizes your child&rsquo;s well-being</strong> — we&rsquo;re a nonprofit, not driven by shareholder returns</td>
+      </tr>
+      <tr>
+          <td><strong>High therapist caseloads</strong> (30+ clients per BCBA) lead to burnout and inconsistent care</td>
+          <td><strong>Low, manageable caseloads</strong> so your therapist can give focused, personalized attention</td>
+      </tr>
+      <tr>
+          <td><strong>Compliance-focused:</strong> Teaching children to follow instructions and conform to social norms</td>
+          <td><strong>Autonomy-focused:</strong> Building independence, self-advocacy, and honoring neurodiversity</td>
+      </tr>
+      <tr>
+          <td><strong>Curriculum-driven:</strong> One-size-fits-all programs</td>
+          <td><strong>Child-led learning:</strong> We follow your child&rsquo;s interests (trains, art, space) to teach new skills</td>
+      </tr>
+      <tr>
+          <td><strong>Table-time drills</strong> that can feel like work</td>
+          <td><strong>Play-based sessions</strong> where learning happens through joy</td>
+      </tr>
+      <tr>
+          <td><strong>High staff turnover</strong> (the best clinicians leave or go out-of-network)</td>
+          <td><strong>Stable, passionate team</strong> — we retain top clinicians with competitive pay and healthy workloads</td>
+      </tr>
+      <tr>
+          <td><strong>Leadership with little clinical expertise</strong> focused on growth and profits</td>
+          <td><strong>BCBA-led organization</strong> committed to clinical excellence and ethical practice</td>
+      </tr>
+      <tr>
+          <td><strong>Families feel like customers</strong> in a transactional relationship</td>
+          <td><strong>Families become part of a supportive community</strong> with regular family gatherings</td>
+      </tr>
+  </tbody>
+</table>
+
+<h3 id="-were-currently-accepting-new-families">🟢 We&rsquo;re Currently Accepting New Families</h3>
+<p>Yoli maintains low caseloads to ensure quality care. Due to high demand in the East Bay, spots fill quickly. If you&rsquo;re considering ABA therapy for your child, <strong>now is the time to schedule your free consultation.</strong></p>
+<p>Serving families in <strong>Albany, Berkeley, El Cerrito, Kensington, and surrounding areas</strong>.</p>
+
 <h3 id="a-new-way-forward">A New Way Forward</h3>
 <ul>
 <li><strong>No Withholding</strong>: We never withhold affection, comfort items, or sensory needs to gain compliance.</li>
@@ -309,9 +486,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>We are a nonprofit serving <strong>Albany, Berkeley, El Cerrito, Kensington and surrounding areas</strong>.</p>
 <p><strong>Is this the relief you&rsquo;ve been looking for?</strong>
 Fill out the form below to schedule a free, no-pressure chat. We’ll listen to your story and help you find a path that feels right for your whole family.</p>
+<h3 id="accessible-care-for-all-families">Accessible Care for All Families</h3>
+<ul>
+<li>We accept most major insurance plans</li>
+<li>Vendorized with the <strong>Regional Center of the East Bay (RCEB)</strong>, <strong>Contra Costa Health Plan (CCHP)</strong>, <strong>Alameda Alliance</strong>, and <strong>Partnership HealthPlan (PHC)</strong></li>
+<li>MediCal approved</li>
+<li>We offer a sliding fee scale for families without insurance</li>
+<li>We&rsquo;re committed to never turning families away due to cost</li>
+</ul>
+<p>Questions about coverage? We&rsquo;ll help you navigate your benefits — just ask during your free consultation call.</p>
+<h3 id="meet-our-clinical-director--founder">Meet our Clinical Director (&amp; Founder)</h3>
+<figure class="left"><img src="../images/laura.png"
+    alt="Laura Kliger" width="150">
+</figure>
+
+<blockquote>
+<p>Hello. I am a <strong>Board Certified Behavior Analyst</strong> (<strong>BCBA</strong>) with an insatiable passion for child development and self-directed learning. I have been working in many settings (homes, schools, clinics and in the community) with children of all ages. I have been supporting parents, teachers, and therapists to better understand and manage behaviors. My passion is to help parents reclaim their role; to understand their child’s behavior and to make changes that allow the family to live in a more cohesive and symbiotic way. &ndash; <em>Laura Kliger, BCBA, MADS</em></p>
+</blockquote>
+<div class="clear-float"></div>
+<h3 id="what-happens-after-you-reach-out">What Happens After You Reach Out?</h3>
+<ol>
+<li><strong>15-Minute</strong> Phone Call<br>
+We&rsquo;ll discuss your child&rsquo;s needs and determine if Yoli is a good fit</li>
+<li><strong>Initial Meeting</strong> (if we&rsquo;re a match)<br>
+Learn about our approach, ask questions, and meet our team</li>
+<li><strong>Intake &amp; Evaluation</strong><br>
+We observe your child and develop a personalized treatment plan</li>
+<li><strong>Treatment</strong> Begins<br>
+Play-based sessions at our Albany playspace or in the community, with parent involvement</li>
+</ol>
+<p>No pressure at any step — we want to make sure Yoli is right for YOU.</p>
+<h3 id="why-parents-trust-yoli">Why Parents Trust Yoli</h3>
+<ul class="list-with-check">
+<li><strong>BCBA-led</strong> organization (Board Certified Behavior Analysts)</li>
+<li>501(c)(3) <strong>nonprofit</strong> — <strong>mission-driven</strong>, not profit-driven</li>
+<li>Evidence-based, <strong>neurodiversity-affirming</strong> approach</li>
+<li><strong>Low caseloads</strong> means consistent, quality care</li>
+<li><strong>Licensed</strong> &amp; insured (NPI: 1134010382)</li>
+<li><strong>Physical playspace</strong> in Albany (1057 Solano Ave)</li>
+</ul>
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+<iframe id="contact-form" src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 

@@ -9,7 +9,15 @@ display_title: "Real Growth. <br/> No Masking Required."
 Traditional ABA often focuses on making autistic kids appear "indistinguishable from their peers." We focus on helping them be their best, authentic selves.
 
 ### The Anti-Burnout Approach
-{{< figure src="../images/Neuro-Affirming.jpeg" width="300px" alt="Happy child running at a park near Albany / Berkeley" class="right" >}} We know that masking (hiding autistic traits) leads to severe burnout and anxiety. Our goal is **Skill-Building, not compliance.** We teach self-advocacy, regulation, and independence—skills that actually improve quality of life.
+{{< figure src="../images/Neuro-Affirming.jpeg" width="512px" alt="Happy child running at a park near Albany / Berkeley" class="right" >}} We know that masking (hiding autistic traits) leads to severe burnout and anxiety. Our goal is **Skill-Building, not compliance.** We teach self-advocacy, regulation, and independence—skills that actually improve quality of life.
+
+{{< clearfloat >}}
+
+{{< cta-button float="true" text="Schedule Free Call" href="#contact-form" subtext="(No pressure, no commitment — just a conversation about your child's needs)" >}}
+
+{{< include-markdown "content/snippets/why-families-choose-yoli.md" >}}
+
+{{< include-markdown "content/snippets/accepting-new-families.md" >}}
 
 ### How We Honor Neurodivergence
 - **Stimming is Okay**: We respect sensory regulation (stimming) and never target harmless behaviors for reduction.
@@ -22,6 +30,14 @@ We are a nonprofit serving **Albany, Berkeley, El Cerrito, Kensington and surrou
 **Ready for therapy that respects your child's identity?**
 Connect with us below. We’d love to discuss your child's unique strengths and how we can support them without trying to change who they are.
 
+{{< include-markdown "content/snippets/accessible-care.md" >}}
+
+{{< include-markdown "content/snippets/meet-our-clinical-director.md" >}}
+
+{{< include-markdown "content/snippets/what-happens-next.md" >}}
+
+{{< include-markdown "content/snippets/why-parents-trust-yoli.md" >}}
+
 {{< rawhtml >}}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe id="contact-form" src="https://docs.google.com/forms/d/e/1FAIpQLSej_OWUPYpmvxwDnvMkXSNI6HrR8IIRhzyNPBTgl0LUCV8QoA/viewform?embedded=true" width="100%" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 {{< /rawhtml >}}
