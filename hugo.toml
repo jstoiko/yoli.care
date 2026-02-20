@@ -1,11 +1,12 @@
 baseURL = "https://yoli.care"
 
-# This is a "one page"-website, so we do not need these kinds of pages...
+# When enabling blog/resources:
+# disableKinds = ["taxonomy", "term", "RSS"]
 disableKinds = ["section", "taxonomy", "term", "RSS"]
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 theme = "hugo-scroll"
-title = "Yoli - Autism care that cares"
+title = "Yoli | Neurodiversity-Affirming ABA Therapy in Albany, CA"
 
 # enable emoji processing in Markdown (valid only for pure markdown content)
 enableEmoji = true
