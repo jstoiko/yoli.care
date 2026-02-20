@@ -9,7 +9,9 @@ display_title: "Real Growth. <br/> No Masking Required."
 Traditional ABA often focuses on making autistic kids appear "indistinguishable from their peers." We focus on helping them be their best, authentic selves.
 
 ### The Anti-Burnout Approach
-{{< figure src="../images/Neuro-Affirming.jpeg" width="512px" alt="Happy child running at a park near Albany / Berkeley" class="right" >}} We know that masking (hiding autistic traits) leads to severe burnout and anxiety. Our goal is **Skill-Building, not compliance.** We teach self-advocacy, regulation, and independence—skills that actually improve quality of life.
+{{< figure src="../images/Neuro-Affirming.jpeg" width="512px" alt="Happy child running at a park near Albany / Berkeley" class="right" >}} We know that masking (hiding autistic traits) leads to severe burnout and anxiety. Our goal is **Skill-Building, not compliance.**
+- **Authenticity First**: We help children understand and advocate for their needs, rather than training them to hide who they are.
+- **Sustainable Growth**: We focus on regulation and independence—skills that improve quality of life long-term, not just immediate compliance.
 
 {{< clearfloat >}}
 
@@ -25,8 +27,6 @@ Traditional ABA often focuses on making autistic kids appear "indistinguishable 
 - **Trauma-Informed**: We recognize the history of harm in our field and actively work to repair it through transparent, ethical practices.
 
 ### Safe, Affirming Care in the East Bay
-We are a nonprofit serving **Albany, Berkeley, El Cerrito, Kensington and surrounding areas**.
-
 **Ready for therapy that respects your child's identity?**
 Connect with us below. We’d love to discuss your child's unique strengths and how we can support them without trying to change who they are.
 
