@@ -7,6 +7,7 @@ header_menu: true
 ---
 
 ----
+
 {{< details "What does starting behavioral intervention look like?" >}}
 We will begin with an initial 15 min phone call to determine if Yoli is a good fit for your family.
 
@@ -71,6 +72,11 @@ Please feel comfortable reaching out to us via our [contact form](https://forms.
 {{< /details >}}
 
 {{< details "Can you bill my insurance directly?" >}}
+
+- We accept most major insurance plans
+- Vendorized with the **Regional Center of the East Bay (RCEB)**, **Contra Costa Health Plan (CCHP)**, **Alameda Alliance**, and **Partnership HealthPlan (PHC)**
+- MediCal approved
+
 For insurances with whom Yoli is in-network, we will submit claims to your insurance directly. For insurances with whom we are an out-of-network provider, depending on your plan, we will either submit a claim, or provide you with a superbill which you can choose to submit to your insurance company for possible reimbursement.
 {{< /details >}}
 

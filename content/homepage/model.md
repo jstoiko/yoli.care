@@ -34,3 +34,6 @@ We believe that intrinsic motivation is the most powerful driver of learning. Ra
 As a non-profit organization, our bottom line is your child’s well-being, not shareholder returns. This model allows us to foster a **high-quality, supportive work environment** for our staff.
 - **Investing in People**: We pour our resources back into continuous professional development for our team.
 - **Exceptional Care**: By taking care of our clinicians, we ensure an exceptional caliber of clinical staff is available to support your family.
+
+{{< include-markdown "content/snippets/why-families-choose-yoli.md" >}}
+
