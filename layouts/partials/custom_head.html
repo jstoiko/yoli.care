@@ -16,7 +16,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <style>
 :root {
     /* see variables.scss for more variables*/
-
     --cover-text-color: #335b25!important;
     --highlight: #4b773c!important;
     --highlight-contrast: white!important;
@@ -25,7 +24,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     --highlight-inverse-contrast: var(--cover-text-color)!important;
 
     --section-light-text-color: var(--cover-text-color)!important;
-    --section-light-bg-color: var(--highlight-inverse)!important;
+    --section-light-bg-color: white!important;
     --section-dark-bg-color: var(--highlight)!important;
     --section-uni-quote: var(--cover-text-color)!important;
     --sticky-menu-text-color: var(--cover-text-color)!important;
@@ -57,10 +56,10 @@ details > summary {
     top: 0;
     right: 0;
     z-index: 999;
-    padding: 0 1rem;
+    padding: 1rem 2rem;
     color: var(--highlight-contrast);
     background-color: var(--highlight);
-    border-radius: 0 0 0 20px;
+    border-radius: 0 0 0 15px;
     font-family: oswald, sans-serif;
     font-weight: lighter;
 }
@@ -71,17 +70,21 @@ details > summary {
     gap: 1.2rem;   /* Adds space between links */
 }
 .top-menu .top-menu-items .top-menu-item {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 0.4px;
 }
 .top-menu .top-menu-items .top-menu-item a {
     text-decoration: none;
+    white-space: nowrap;
 }
-/* Mobile: hide the menu */
-@media (max-width: 768px) {
+/* Mobile: move the top menu to the bottom */
+@media (max-width: 1130px) {
     .top-menu {
-        display: none;
+        width: auto;
+        top: unset;
+        bottom: 0;
+        border-radius: 0;
     }
 }
 /* CTA Button Styles */
@@ -115,6 +118,9 @@ details > summary {
     color: #666;
     margin-top: 0.5rem;
     font-style: italic;
+}
+.site-footer {
+  padding: 3rem 0;
 }
 
 
