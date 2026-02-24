@@ -2,15 +2,18 @@
   <main class="content page-template page-{{ .Slug }}">
     <article class="post page">
       <header class="post-header">
-        {{ with .Parent }}
-          {{ if hugo.IsMultihost }}
-          <a id="back-to-main-page" href="{{ .RelPermalink | relLangURL }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ or .Title .Site.Title }}</a>
-          {{ else }}
-        <a id="back-to-main-page" href="{{ .RelPermalink | relLangURL }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ or .Title .Site.Title }}</a>
+        {{ if .Parent.IsHome }}
+          {{ partial "back-home.html" . }}
+        {{ else }}
+          {{ with .Parent }}
+            <a id="back-to-main-page" href="{{ .RelPermalink | relLangURL }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ .Title }}</a>
           {{ end }}
         {{ end }}
       </header>
       <h1 class="post-title">{{ (or .Params.display_title .Title) | emojify | safeHTML }}</h1>
+      {{ if and (eq .Section "resources") .Date }}
+        <p class="post-date"><i>Updated {{ .Date.Format "January 2006" }}</i></p>
+      {{ end }}
       <section class="post-content">
         {{ .Content }}
       </section>

@@ -1,8 +1,8 @@
 baseURL = "https://yoli.care"
 
-# When enabling blog/resources:
-# disableKinds = ["taxonomy", "term", "RSS"]
-disableKinds = ["section", "taxonomy", "term", "RSS"]
+# Before enabling resources:
+# disableKinds = ["sections","taxonomy", "term", "RSS"]
+disableKinds = ["taxonomy", "term", "RSS"]
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 theme = "hugo-scroll"
@@ -74,6 +74,9 @@ block = true
     
     # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
     image_options = "webp q90 lanczos photo"
+
+    # Navigation
+    back_home_text = "Back to Home"
     
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page
@@ -105,5 +108,5 @@ block = true
     [[params.contacts]]
         label = "address"
         value = "1057 Solano Ave, Ste 104 <br/> Albany, CA 94706 United States"
-        url = "http://maps.google.com/?q=Yoli 1057 Solano Ave, Albany, CA 94706 United States"
+        url = "https://www.google.com/maps/place/?q=place_id:ChIJoy16Y9J5hYARPtSrabComTc"
         icon = "fa fa-location-dot"

@@ -3,6 +3,12 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+{{ if and (not .IsHome) (not .Params.is_landing) }}
+<a href="{{ .Site.BaseURL }}" class="mini-logo-home">
+  <img src='{{ "images/yoli.png" | absURL }}' alt="Yoli Home">
+</a>
+{{ end }}
+
 <nav class="top-menu">
   <div class="top-menu-items">
     {{- range .Site.Menus.main }}

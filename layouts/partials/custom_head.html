@@ -123,15 +123,44 @@ details > summary {
   padding: 3rem 0;
 }
 
+{{ if not .IsHome }}
+/* Top-Left Mini Logo for non-homepage pages*/
+.mini-logo-home {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    z-index: 999;
+    width: 60px;
+    height: auto;
+    transition: opacity 0.2s;
+    display: block;
+}
+.mini-logo-home img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.mini-logo-home:hover {
+    opacity: 0.8;
+}
+@media (max-width: 1130px) {
+    .mini-logo-home {
+        width: 50px;
+        top: 1rem;
+        left: 1rem;
+    }
+}
+/* extend width of content for non-homepage pages */
+.post {
+    max-width: 1024px;
+    padding-top: 1rem;
+}
+{{ end }}
 
 {{ if .Params.is_landing }}
 /* Special overides for langing pages */
 .top-menu {
     display: none;
-}
-.post {
-    max-width: 1024px;
-    padding-top: 1rem;
 }
 .page-template .post-header  {
     display: block; 
