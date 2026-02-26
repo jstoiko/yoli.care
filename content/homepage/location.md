@@ -6,9 +6,7 @@ weight: 6
 header_menu: true
 ---
 
-🟢 We're Currently Accepting New Families for both **Assessement** and **Therapy**.
-
-{{< cta-button text="Contact Us" href="https://forms.gle/EFY2tqJVWx2terSu5" subtext="(Fill a short form — and we will respond within 2 business days)" >}}
+{{< accepting-now >}}
 
 {{<contact_list>}}
 

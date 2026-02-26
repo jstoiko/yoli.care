@@ -86,7 +86,7 @@ Once you have your log showing no availability within 15 days, call your insuran
 **Why this works:** A DMHC grievance costs the plan time, money, and regulatory scrutiny. They want to avoid it.
 
 ### Step 3: The Follow-Through
-If the representative hesitates or says "we'll look into it," ask for a **Case Number** and the **Fax Number** for the Claims/Prior Authorization department.
+If the representative hesitates or says *"we'll look into it"*, ask for a **Case Number** and the **Fax Number** for the Claims/Prior Authorization department.
 
 **Then, contact us immediately.**
 We will provide you with the "Support Packet" to fax or email to them:
@@ -135,3 +135,7 @@ Ensure the insurance company confirms in writing (or on a recorded line) that th
 ---
 
 **Remember:** You are not asking for a favor. You are demanding your legal right to timely healthcare.
+
+---
+
+{{< accepting-now >}}
