@@ -1,7 +1,7 @@
 ---
-title: "5 Sensory-Rich Parks in Albany & Berkeley (That Aren't Just Swings)"
-display_title: "5 Sensory-Rich Parks in Albany & Berkeley"
-meta_title: "Best Sensory Friendly Parks in Albany & Berkeley | Yoli"
+title: "5 Sensory-Rich Parks in & around Albany & Berkeley (That Aren't Just Swings)"
+display_title: "5 Sensory-Rich Parks in & around Albany & Berkeley"
+meta_title: "Best Sensory Friendly Parks in & around Albany & Berkeley | Yoli"
 description: "A guide to the best local parks for sensory seeking, regulation, and heavy work. From quiet redwood groves to mud play."
 date: 2026-01-01
 categories: ["Local Guides"]
