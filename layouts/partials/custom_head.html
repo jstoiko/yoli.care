@@ -78,15 +78,6 @@ details > summary {
     text-decoration: none;
     white-space: nowrap;
 }
-/* Mobile: move the top menu to the bottom */
-@media (max-width: 1130px) {
-    .top-menu {
-        width: auto;
-        top: unset;
-        bottom: 0;
-        border-radius: 0;
-    }
-}
 /* CTA Button Styles */
 .cta-container {
     text-align: center;
@@ -127,6 +118,17 @@ blockquote {
     margin: 0;
     font-style: italic;
 }
+/* Mobile: move the top menu to the bottom */
+@media only screen and (max-width: 900px) {
+    .top-menu {
+        width: auto;
+        top: unset;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+}
 
 {{ if not .IsHome }}
 /* Top-Left Mini Logo for non-homepage pages*/
@@ -160,6 +162,22 @@ blockquote {
     max-width: 1024px;
     padding-top: 1rem;
 }
+/* Make right-aligned images full width on mobile */
+@media only screen and (max-width: 900px) {
+    .post-content figure,
+    .fa-figure {
+        float: none !important;
+        margin: 0 auto 2rem auto !important;
+        width: 100% !important;
+        text-align: center;
+    }
+    .post-content figure > img,
+    .fa-figure > i {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
+    }
+}
 {{ end }}
 
 {{ if .Params.is_landing }}
@@ -182,20 +200,6 @@ blockquote {
 .page-template .post-title {
     text-align: center;
     hyphens: none;
-}
-/* Make right-aligned images full width on mobile */
-@media only screen and (max-width: 900px) {
-    figure.right {
-        float: none !important;
-        margin: 0 auto 1rem auto !important;
-        width: 100% !important;
-        text-align: center;
-    }
-    figure.right img {
-        width: 100% !important;
-        height: auto !important;
-        max-width: 100%;
-    }
 }
 
 /* Center-justify the tagline (first paragraph) */
@@ -238,7 +242,7 @@ li p + p {
     --ul-li-icon: "fa-check"; /* Override the icon for this class */
 }
 
-/* Clearfix for figure */
+/* Clearfix for short paragraphs and high floating images */
 .clear-float {
     clear: both;
     display: block;

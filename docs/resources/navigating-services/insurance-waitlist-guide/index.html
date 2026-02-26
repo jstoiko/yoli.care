@@ -134,15 +134,6 @@ details > summary {
     white-space: nowrap;
 }
  
-@media (max-width: 1130px) {
-    .top-menu {
-        width: auto;
-        top: unset;
-        bottom: 0;
-        border-radius: 0;
-    }
-}
- 
 .cta-container {
     text-align: center;
     margin: 2.5rem 0 1rem 0;
@@ -182,6 +173,17 @@ blockquote {
     margin: 0;
     font-style: italic;
 }
+ 
+@media only screen and (max-width: 900px) {
+    .top-menu {
+        width: auto;
+        top: unset;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+}
 
 
  
@@ -214,6 +216,22 @@ blockquote {
 .post {
     max-width: 1024px;
     padding-top: 1rem;
+}
+ 
+@media only screen and (max-width: 900px) {
+    .post-content figure,
+    .fa-figure {
+        float: none !important;
+        margin: 0 auto 2rem auto !important;
+        width: 100% !important;
+        text-align: center;
+    }
+    .post-content figure > img,
+    .fa-figure > i {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
+    }
 }
 
 
@@ -260,7 +278,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="post-date"><i>Updated February 2026</i></p>
       
       <section class="post-content">
-        <div style="float: right; width: 400px; font-size: 300px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
+        <div class="fa-figure" style="float: right; width: 400px; font-size: 300px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
   <i class="fa-regular fa-clock"></i>
 </div>
 
@@ -293,7 +311,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </li>
 </ul>
 <hr>
-<div style="float: right; width: 300px; font-size: 200px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
+<div class="fa-figure" style="float: right; width: 300px; font-size: 200px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
   <i class="fa-solid fa-scale-balanced"></i>
 </div>
 
@@ -346,7 +364,7 @@ Insurance companies do not care about philosophy. They view ABA as a generic med
 <p><strong>Argue exclusively about TIMELINE.</strong>
 Say, <em>&ldquo;I want Yoli because they are the ONLY provider who can see my child within the legal 15-day window.&rdquo;</em></p>
 <hr>
-<div style="float: right; width: 300px; font-size: 200px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
+<div class="fa-figure" style="float: right; width: 300px; font-size: 200px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
   <i class="fa-solid fa-file-pen"></i>
 </div>
 
@@ -416,7 +434,7 @@ If you have Medi-Cal (e.g., Kaiser Medi-Cal, CCHP, Alameda Alliance), you have <
 </li>
 </ul>
 <hr>
-<div style="float: right; width: 300px; font-size: 200px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
+<div class="fa-figure" style="float: right; width: 300px; font-size: 200px; line-height: 1; text-align: center; margin: 0 0 1rem 1rem; color: #4b773c;">
   <i class="fa-solid fa-circle-exclamation"></i>
 </div>
 
