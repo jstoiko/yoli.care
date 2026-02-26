@@ -24,25 +24,57 @@ The **Knox-Keene Health Care Service Plan Act** guarantees your right to *Timely
 
 On this page below, you will find:
 *   [The Law: The "15-Day Rule" & "10-Day Rule"](#the-law-the-15-day-rule--10-day-rule)
-*   [The Playbook: How to Trigger an SCA](#the-playbook-how-to-trigger-an-sca)
+*   [Guide: Skip the Waitlist](#guide-skip-the-waitlist)
+    * Trigger an SCA (or LOA) with your Health plan
 *   [Scenarios: Where Are You Stuck?](#scenarios-where-are-you-stuck)
+    * Scenario A: Diagnosis but No Assessment
+    * Scenario B: Assessment / Plan done but no Therapist
 
 ---
 
 {{< fa-figure icon="fa-solid fa-scale-balanced" width="300px" size="200px" color="#4b773c" >}}
 
 ## The Law: The "15-Day Rule" & "10-Day Rule"
-California regulations (enforced by the **Department of Managed Health Care** or **DMHC**) provide strict timelines for access to care:
+California regulations (enforced by the **Department of Managed Health Care** or **DMHC**) provide strict timelines for access to care. If your plan cannot offer an appointment within these windows, they are legally out of compliance.
 
-*   **15 Business Days:** Health plans must provide an appointment with a specialist (like your **Initial ABA Assessment**) within 15 business days of a request.
-*   **10 Business Days:** Under **SB 221** (effective July 2022), non-physician mental health follow-up appointments (like **ongoing ABA therapy sessions**) must be offered within 10 business days.
+### The Deadlines (Commercial & Medi-Cal Plans)
+*   **15 Business Days:** Non-Urgent Specialist Appointment (e.g., **Initial ABA Assessment**).
+*   **10 Business Days:** Non-Urgent Primary Care Appointment.
+*   **10 Business Days:** Mental Health Follow-Up (e.g., **ongoing ABA therapy sessions**), mandated by **SB 221**.
+*   **48 Hours:** Urgent Care (for services that do not require prior authorization).
 
-If your insurance plan cannot offer you an appointment with an *available* In-Network provider within these windows, they are legally out of compliance.
+**The Remedy:** If the network is inadequate and cannot meet these standards, the plan **must** authorize an Out-of-Network provider to deliver the service.
 
-### Know Your Regulator
-Most California plans are regulated by the **DMHC**. However, if your plan is a **PPO** through a large employer (self-insured), you might be regulated by the **California Department of Insurance (CDI)** or federal ERISA law. Check your insurance card—if it mentions "CDI," file your complaint there.
+### How To Escalate
+Who you complain to depends on your specific plan type.
 
-**The Remedy:** If the network is inadequate, the plan **must** authorize an Out-of-Network provider to deliver the service. They might call it a **Single Case Agreement (SCA)** or a **Letter of Agreement (LOA)**, but the name doesn't matter—only the authorization matters.
+#### 1. Commercial Plans (HMO/PPO) & Medi-Cal Managed Care
+*   **Who regulates them:** **Department of Managed Health Care (DMHC)**.
+*   **Who this covers:** Most private plans (Kaiser, Blue Shield, Anthem) and Medi-Cal Managed Care plans (e.g., Kaiser Medi-Cal, CCHP, Alameda Alliance).
+*   **Your Action:** File a complaint with the DMHC Help Center if the plan denies your grievance or fails to resolve it within 30 days.
+
+#### 2. Medi-Cal Specific Rights (in addition to 1.)
+*   **Who regulates them:** **California Department of Social Services (CDSS)** via State Fair Hearing.
+*   **Who this covers:** All Medi-Cal members.
+*   **Your Action:** You can request a **State Fair Hearing**. This is a powerful legal tool that allows you to bypass the plan’s internal bureaucracy and go straight to an administrative law judge. If a Medi-Cal plan denies or delays medically necessary care, you do not have to wait for the DMHC process alone.
+
+#### 3. Self-Insured PPOs
+*   **Who regulates them:** **California Department of Insurance (CDI)** or federal DOL.
+*   **Who this covers:** Large employer PPOs where the employer pays claims directly. Check your card for "CDI".
+
+## The Financial Difference: Commercial vs. Medi-Cal
+When you force a plan to go out-of-network, the financial impact on you differs by plan type.
+
+### Commercial Plans (AB 72 Protections)
+If your plan sends you out-of-network because they cannot meet timely access standards, **you pay only your in-network cost-sharing** (co-pay or deductible). The plan pays the rest. This is protected under **AB 72** (Surprise Billing laws).
+
+### Medi-Cal Plans (No Cost to You)
+If a Medi-Cal plan authorizes an out-of-network provider via a **Single Case Agreement (SCA)**, **you pay $0**. Federal and state law prohibit billing Medi-Cal members for covered services. The plan must cover the full cost of the provider.
+
+## New for 2026: Stricter Enforcement (APL 25-006)
+As of 2025/2026, the **Department of Health Care Services (DHCS)** has issued **All Plan Letter (APL) 25-006**, increasing enforcement on Medi-Cal Managed Care plans.
+*   **Minimum Performance Levels:** Plans are now strictly monitored on wait times.
+*   **Forced Referrals:** If a plan is failing these metrics, they are under increased pressure from the state to approve out-of-network referrals quickly to avoid penalties. Use this to your advantage—mentioning "APL 25-006" shows you know the current regulations.
 
 ## The Trap: "Medical Necessity" vs. "Availability"
 Insurance companies often try to deny Single Case Agreements by saying, *"We have other providers in network."*. They will send you a list of 50 names. They won't tell you that 48 of them are full, 1 is retired, and 1 is on maternity leave.
@@ -58,9 +90,9 @@ Say, *"I want Yoli because they are the ONLY provider who can see my child withi
 
 {{< fa-figure icon="fa-solid fa-file-pen" width="300px" size="200px" color="#4b773c" >}}
 
-## The Playbook: How to Trigger an SCA
+## Guide: Skip the Waitlist
 
-### Step 1: The Waitlist Log (Gather Evidence)
+### Step 1: Gather Evidence
 You cannot just *say* there are waitlists. You must *prove* it.
 1.  Take the list of In-Network providers your insurance gave you.
 2.  Call 3-5 of them.
@@ -69,7 +101,7 @@ You cannot just *say* there are waitlists. You must *prove* it.
     *   **Provider Name** | **Date Called** | **Wait Time Stated**
     *   *Example:* "ABC Therapy | 2/25/26 | 9-12 months"
 
-### Step 2: The Demand Call (Trigger the Law)
+### Step 2: Trigger the Law
 Once you have your log showing no availability within 15 days, call your insurance plan’s **Member Services** number.
 
 **Script:**
@@ -77,11 +109,11 @@ Once you have your log showing no availability within 15 days, call your insuran
 >
 > I have called 5 providers on your list. **All of them have waitlists exceeding [X] months.** (Read your log if asked).
 >
-> You are failing to provide Network Adequacy. I have identified a provider, **Yoli**, who has an immediate opening and can begin services within the legal timeline.
+> You are failing to provide Network Adequacy. **(Optional for Medi-Cal: "This is a violation of APL 25-006 regarding Minimum Performance Levels.")** I have identified a provider, **Yoli**, who has an immediate opening and can begin services within the legal timeline.
 >
 > **I am requesting that you authorize them as an out-of-network provider to meet your Timely Access obligations.** Please confirm this will be at my in-network cost-sharing rate.
 >
-> Please provide me with a case number for this request and the direct fax number for your Single Case Agreement department. If you cannot authorize this, I will file a grievance with the **Department of Managed Health Care (DMHC)** today."
+> Please provide me with a case number for this request and the direct fax number for your Single Case Agreement department. If you cannot authorize this, I will file a grievance with the **Department of Managed Health Care (DMHC)** (or request a **State Fair Hearing** if Medi-Cal) today."
 
 **Why this works:** A DMHC grievance costs the plan time, money, and regulatory scrutiny. They want to avoid it.
 
@@ -102,16 +134,22 @@ If the insurance company denies your request or fails to resolve the issue, you 
 *   **The Clock:** Once filed, the plan has **30 calendar days** to resolve it.
 *   **The "Urgent" Exception:** If the delay is causing a serious threat to your child’s health (e.g., severe regression, self-injury, dangerous behaviors), mark the grievance as **"URGENT / EXPEDITED."** The plan must respond within **72 hours**.
 
-**2. File a Complaint with the DMHC**
-You can file a complaint with the **DMHC Help Center** if:
-*   The plan denies your grievance (in writing).
-*   The plan fails to resolve it within 30 days.
-*   The situation is **Urgent** (immediate threat to health) and the plan hasn't acted within 72 hours.
+**2. Choose Your Escalation Path**
 
-**How to File:**
-*   **Website:** [HealthHelp.ca.gov](https://www.dmhc.ca.gov/FileaComplaint.aspx)
-*   **Phone:** 1-888-466-2219
-*   **What to Attach:** Your "Waitlist Log," your denial letter/grievance number, and the letter from Yoli confirming availability.
+**Option A: Commercial Plans (DMHC)**
+*   **File with:** **DMHC Help Center**
+*   **When:** If the plan denies your grievance (in writing), fails to resolve it within 30 days, or if the situation is **Urgent** and they haven't acted within 72 hours.
+*   **How:** [HealthHelp.ca.gov](https://www.dmhc.ca.gov/FileaComplaint.aspx) or 1-888-466-2219.
+
+**Option B: Medi-Cal Managed Care Plans (You Have Two Choices)**
+If you have Medi-Cal (e.g., Kaiser Medi-Cal, CCHP, Alameda Alliance), you have **dual rights**. You can use *either* or *both* pathways, but the State Fair Hearing is often faster for denials.
+
+*   **Choice 1: The Regulator (DMHC)**
+    *   Same process as Commercial plans above. The DMHC regulates your health plan and can force them to comply.
+*   **Choice 2: The "Nuclear Option" (State Fair Hearing)**
+    *   **File with:** **California Department of Social Services (CDSS)**.
+    *   **Why use this:** This is a federal right unique to Medi-Cal. An Administrative Law Judge (ALJ) can order the plan to pay. You can request this **at the same time** as a DMHC complaint.
+    *   **How:** [CDSS State Hearings Division](https://www.cdss.ca.gov/hearing-requests).
 
 ---
 
@@ -129,8 +167,10 @@ You can file a complaint with the **DMHC Help Center** if:
 *   **The Trap:** Insurance often considers "Assessment Complete" as "Access Met."
 *   **The Counter:** *"Access to care means TREATMENT, not just paperwork. My child has a medical prescription for [X] hours per week starting now. If your network cannot fulfill the hours prescribed by the doctor within **10 business days**, you are in violation of **SB 221**. I need an authorization for a provider who has staff ready NOW."*
 
-**Warning: Protect Your Wallet**
+**Warning: Protect Your Wallet (Commercial Plans)**
 Ensure the insurance company confirms in writing (or on a recorded line) that the SCA will be processed at **In-Network cost-sharing levels**. This ensures you only pay your standard co-pay/deductible, and not the full out-of-network price.
+
+**For Medi-Cal Families:** You do not have co-pays or deductibles for covered services. The plan must cover the full cost. If a provider tries to bill you, contact your plan immediately.
 
 ---
 
