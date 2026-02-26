@@ -78,6 +78,8 @@ Please feel comfortable reaching out to us via our [contact form](https://forms.
 - MediCal approved
 
 For insurances with whom Yoli is in-network, we will submit claims to your insurance directly. For insurances with whom we are an out-of-network provider, depending on your plan, we will either submit a claim, or provide you with a superbill which you can choose to submit to your insurance company for possible reimbursement.
+
+**Facing long waitlists?** Read our guide on [Using California’s "Timely Access" Laws to Skip the Waitlist](/resources/navigating-services/insurance-waitlist-guide/).
 {{< /details >}}
 
 {{< details "I am not a parent but a Professional seeking consultation?" >}}
