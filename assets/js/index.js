@@ -112,7 +112,8 @@ var $sitehead = $("#site-head");
         });
       }
     });
-    $("blockquote p").prepend('<span class="quo fa fa-quote-left"></span>');
-    $("blockquote p").append('<span class="quo fa fa-quote-right"></span>');
+    /* Blockquote Fix: Only quote first and last paragraphs, not every paragraph */
+    $("blockquote p:first-child").prepend('<span class="quo fa fa-quote-left"></span>');
+    $("blockquote p:last-child").append('<span class="quo fa fa-quote-right"></span>');
   });
 })(jQuery);

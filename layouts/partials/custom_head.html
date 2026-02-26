@@ -122,6 +122,11 @@ details > summary {
 .site-footer {
   padding: 3rem 0;
 }
+/* Override blockquote nagative margins */
+blockquote {
+    margin: 0;
+    font-style: italic;
+}
 
 {{ if not .IsHome }}
 /* Top-Left Mini Logo for non-homepage pages*/
