@@ -85,3 +85,8 @@ For insurances with whom Yoli is in-network, we will submit claims to your insur
 {{< details "I am not a parent but a Professional seeking consultation?" >}}
 Perhaps you are a **teacher**, **SLP**, **Psychologist**, or **PT**, and you have a particular client/student with challenging behaviors and need some help. Yoli welcomes collaboration! Feel free to [contact us](https://forms.gle/EFY2tqJVWx2terSu5).
 {{< /details >}}
+
+---
+Need help navigating the "system"? Discover practical guides, affirming approaches to autism, and transparent information in our resource center below.
+
+{{< cta-button text="Free Resources" href="/resources" subtext=" " >}}
