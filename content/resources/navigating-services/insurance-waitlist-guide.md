@@ -1,5 +1,5 @@
 ---
-title: "How to Skip the Waitlist: Using California’s \"Timely Access\" Laws"
+title: "How to Skip the Waitlist (Using California’s \"Timely Access\" Laws)"
 display_title: "How to Skip the Waitlist: <br>Using California’s \"Timely Access\" Laws"
 meta_title: "California Timely Access to Care: Getting ABA Therapy Faster | Yoli"
 description: "Is your insurance waitlist 6-12 months? California law requires an appointment within 15 days. Learn how to use the Knox-Keene Act to force your plan to cover out-of-network care now."
@@ -17,8 +17,7 @@ If you live in the Bay Area, you have likely encountered one of these two scenar
 
 In many cases, a provider will conduct an initial assessment just to "claim" you as a client, then leave you in limbo—offering occasional remote "Parent Training" while you wait years for actual, in-person ABA therapy.
 
-You might think you have no choice but to wait.
-**Under California law, you do not.**
+You might think you have no choice but to wait. **Under California law, you don't have to.**
 
 The **Knox-Keene Health Care Service Plan Act** guarantees your right to *Timely Access to Care*. This law is your most powerful tool to bypass month-long waitlists and get your child the support they need *now*—often with an Out-of-Network provider (like Yoli) paid for by your insurance at the In-Network rate.
 
