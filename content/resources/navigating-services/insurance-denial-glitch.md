@@ -2,13 +2,13 @@
 title: "Overcoming the New Year Insurance Denial Glitch"
 display_title: "Overcoming the New Year <br>Insurance Denial Glitch"
 meta_title: "Overcoming the New Year Insurance Denial \"Glitch\" | Yoli"
-date: 2026-03-02
+date: 2026-02-28
 categories: ["Navigating Services"]
 draft: false
 description: "Why your January ABA sessions might be suddenly flagged or denied—and exactly how to fix it without losing care."
 ---
 
-{{< fa-figure icon="fa-solid fa-bug-slash" width="300px" size="200px" color="#4b773c" >}}
+{{< fa-figure icon="fa-solid fa-bug" width="300px" size="200px" color="#4b773c" >}}
 
 **Why your January ABA sessions might be suddenly flagged or denied—and exactly how to fix it without losing care.**
 
@@ -22,7 +22,7 @@ It’s what we call the **New Year Insurance Denial Glitch**.
 
 Here is exactly what is happening behind the scenes, and your step-by-step strategy to resolve it quickly so your child's care isn't interrupted.
 
-### 🕵️‍♀️ The Culprits: Why is this happening?
+### The Culprits: Why is this happening?
 
 Insurance companies process millions of updates at the turn of the year. When their automated systems get confused, they default to denying the claim. The three most common reasons are:
 
@@ -34,7 +34,7 @@ Insurance companies process millions of updates at the turn of the year. When th
 
 {{< fa-figure icon="fa-solid fa-map-location-dot" width="300px" size="200px" color="#4b773c" >}}
 
-### 🗺️ The Strategy: Your Action Plan
+### The Strategy: Your Action Plan
 
 When the glitch strikes, here is your playbook:
 

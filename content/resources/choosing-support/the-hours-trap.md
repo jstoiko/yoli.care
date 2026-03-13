@@ -1,9 +1,10 @@
 ---
-title: "The 'Hours' Trap: Why More Therapy Isn't Always Better"
-display_title: "The 'Hours' Trap: Why More <br>Therapy Isn't Always Better"
+title: "The \"Hours\" Trap (Why More Therapy Isn't Always Better)"
+display_title: "The \"Hours\" Trap:<br> Why More Therapy Isn't Always Better"
 meta_title: "The ABA Hours Trap: Quality vs Quantity | Yoli"
 date: 2026-03-13
 categories: ["Choosing Support"]
+draft: false
 description: "Is a 40-hour recommendation right for your child? Why we prioritize quality of life over billable hours."
 ---
 
@@ -12,6 +13,8 @@ If you’ve recently received an autism diagnosis for your child, you’ve likel
 For a three or four-year-old, that is a staggering amount of time. It is more time than most adults spend in their offices, yet it’s often presented as the "gold standard" for early intervention.
 
 At Yoli, we want to pause and ask a difficult question: **Is more therapy actually better, or are we falling into the "Hours Trap"?**
+
+{{< fa-figure icon="fa-solid fa-hourglass-half" width="300px" size="200px" color="#4b773c" >}}
 
 ## The Standard: Why 40 Hours?
 
@@ -30,9 +33,13 @@ When a child spends 40 hours a week in structured therapy, something has to give
 
 We often see "therapy fatigue"—kids who become prompt-dependent, lose their intrinsic motivation, or begin to show increased meltdowns simply because they are exhausted. A child’s childhood matters more than meeting a billable hour quota.
 
+{{< figure src="/images/yoli.png" class="right" width="200px" alt="Yoli Logo" >}}
+
 ## The Yoli Model: Quality Over Quantity
 
 We believe that therapy should support a child's life, not *become* their life. Our approach prioritizes meaningful progress over the sheer volume of time spent in a clinic.
+
+{{< clearfloat >}}
 
 ### 1. Focused, High-Energy Sessions
 Instead of dragging out sessions to hit a 40-hour mark, we focus on high-impact, child-led interactions. When a child is engaged, regulated, and having fun, they learn more in two hours than they would in eight hours of compliance-based drills.
@@ -49,7 +56,7 @@ We monitor for signs of burnout constantly. If a child is tired, we pivot. If th
 There is nuance here. In some cases—especially when there are significant safety concerns or during specific windows of early intervention—higher hours may be recommended temporarily. However, this should always be a clinical decision based on the individual child’s needs and family goals, never a default setting.
 
 ## Choosing What’s Right for Your Family
-
+{{< fa-figure icon="fa-solid fa-people-roof" width="150px" size="100px" color="#4b773c" >}}
 If a provider tells you that your child *must* do 40 hours or they won't make progress, take a breath. You are allowed to ask why. You are allowed to ask for a schedule that preserves your family’s sanity and your child’s right to play.
 
 At the end of the day, the goal of therapy shouldn't be to make a child "look normal" or "comply" for 40 hours a week. The goal should be to give them the tools to navigate the world as their authentic selves—and to give you the tools to support them every step of the way.
