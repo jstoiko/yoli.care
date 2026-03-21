@@ -16,13 +16,9 @@ When you donate, you directly support families in our community who are struggli
 ### Make a Monetary Donation
 Donations are fully tax-deductible to the extent allowed by law.
 
-{{< rawhtml >}}
-<div id="pbp-donation-widget"
-  data-link-id="dl_cee39710-6706-41c1-8050-f61ddc0431b7"
-  data-organisation-id="organisation_000000DDb4Ck02ghHuuK2Hdf38YUi"></div>
-{{< /rawhtml >}}
+[![Candid Bronze Seal 2026](/images/candid-seal-bronze-2026.png)](https://www.zeffy.com/en-US/donation-form/support-yolis-mission)
 
-[Click here to donate via our secure portal](https://donate.goodstack.io/links/dl_cee39710-6706-41c1-8050-f61ddc0431b7?organisationId=organisation_000000DDb4Ck02ghHuuK2Hdf38YUi)
+[Click here to donate via our secure portal](https://www.zeffy.com/en-US/donation-form/support-yolis-mission)
 
 ### Corporate Donation Matching
 Many employers (especially in the Bay Area) will double or even triple your impact! If your company uses a platform like **Benevity**, **CyberGrants**, or **YourCause**, you can find Yoli listed as a registered 501(c)(3) nonprofit.
