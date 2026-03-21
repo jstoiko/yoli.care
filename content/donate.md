@@ -2,7 +2,19 @@
 title: "Support Yoli's Mission"
 ---
 
-Thank you for your interest in supporting our mission! Yoli is a 501(c)(3) nonprofit organization, and donations are fully tax-deductible to the extent allowed by law. If you're interested in making a monetary donation to Yoli, you can either click on the "Donate" button below or [use this page](https://donate.goodstack.io/links/dl_cee39710-6706-41c1-8050-f61ddc0431b7?organisationId=organisation_000000DDb4Ck02ghHuuK2Hdf38YUi). We are deeply grateful for your support!
+**At Yoli, we believe no family should have to navigate the complexities of neurodiversity alone—regardless of whether they are a Yoli client.**
+
+As a 501(c)(3) nonprofit, your donations allow us to act as an **Ethical Refuge** for the East Bay community. Beyond our clinical work, we are launching a dedicated **Advocacy & Family Support Program** funded entirely by donors like you. 
+
+### Your Impact: Funding the Advocacy Program
+When you donate, you directly support families in our community who are struggling to get the care they deserve from the "system."
+
+*   **$50 – Insurance Navigation:** Helps a family appeal a denied claim or understand their coverage limits.
+*   **$150 – IEP/Provider Advocacy:** Funds a Yoli specialist to join a family’s meeting with their school district or current provider to ensure they are receiving ethical, progressive support.
+*   **$500 – The Bridge Fund:** Provides a full clinical consultation for a family currently on a waitlist, giving them immediate strategies to use at home today.
+
+### Make a Monetary Donation
+Donations are fully tax-deductible to the extent allowed by law.
 
 {{< rawhtml >}}
 <div id="pbp-donation-widget"
@@ -10,4 +22,13 @@ Thank you for your interest in supporting our mission! Yoli is a 501(c)(3) nonpr
   data-organisation-id="organisation_000000DDb4Ck02ghHuuK2Hdf38YUi"></div>
 {{< /rawhtml >}}
 
-We are also interested in accepting in-kind donations of toys and other educational materials that can be used for therapy sessions. By filling out [our contact form](https://forms.gle/EFY2tqJVWx2terSu5), you'll help us get in touch with you with more information on how to make non-monetary donations and let us know how you're interested in supporting our mission. 
+[Click here to donate via our secure portal](https://donate.goodstack.io/links/dl_cee39710-6706-41c1-8050-f61ddc0431b7?organisationId=organisation_000000DDb4Ck02ghHuuK2Hdf38YUi)
+
+### Corporate Donation Matching
+Many employers (especially in the Bay Area) will double or even triple your impact! If your company uses a platform like **Benevity**, **CyberGrants**, or **YourCause**, you can find Yoli listed as a registered 501(c)(3) nonprofit.
+
+*   **Employer Match:** Check your company's HR portal to see if they match donations to healthcare or education nonprofits.
+*   **Volunteer Grants:** Some companies also donate money to nonprofits where their employees volunteer their time.
+
+### In-Kind Donations
+We also welcome donations of toys, sensory equipment, and educational materials. By filling out **[our contact form](https://forms.gle/EFY2tqJVWx2terSu5)**, we can coordinate a drop-off or share our current "Clinic Wishlist."
