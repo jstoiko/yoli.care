@@ -1,5 +1,5 @@
 ---
-title: "Pledge Your Support"
+title: "Donate"
 weight: 10
 header_menu: false
 detailed_page_path: /donate/
